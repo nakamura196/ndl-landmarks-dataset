@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "このデータセットを利用する場合は以下を引用してください。"
+title: "錦絵と写真でめぐる日本の名所 データセット (NDL Landmarks Dataset)"
+type: dataset
+authors:
+  - family-names: Nakamura
+    given-names: Satoru
+url: "https://github.com/nakamura196/ndl-landmarks-dataset"
+repository-code: "https://github.com/nakamura196/ndl-landmarks-dataset"
+license: CC-BY-4.0
+date-released: "2026-07-23"
+keywords:
+  - National Diet Library
+  - IIIF
+  - GeoJSON
+  - digital humanities
+  - meisho
+  - open data
+references:
+  - type: data
+    title: "錦絵と写真でめぐる日本の名所（電子展示会）"
+    authors:
+      - name: "国立国会図書館 / National Diet Library"
+    url: "https://www.ndl.go.jp/landmarks"

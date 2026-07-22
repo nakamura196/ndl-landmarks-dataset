@@ -1,0 +1,32 @@
+{
+  "title": "錦絵と写真でめぐる日本の名所 データセット (NDL Landmarks Dataset)",
+  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」を地図データ化したデータセット。全国の名所323件（緯度経度付き）と、各名所に紐づく江戸〜明治大正期の錦絵・写真2589点（NDLデジタルコレクション由来、IIIF URL・書誌情報・権利表示付き）を、GeoJSON / CSV / IIIF Collection / Frictionless datapackage 形式で提供する。編纂データは CC BY 4.0。画像の権利は各レコードの rights を参照（PDM=パブリックドメインが多数）。",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    { "name": "Nakamura, Satoru" }
+  ],
+  "keywords": [
+    "National Diet Library",
+    "IIIF",
+    "GeoJSON",
+    "digital humanities",
+    "meisho",
+    "ukiyo-e",
+    "Japan",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.ndl.go.jp/landmarks",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/nakamura196/ndl-landmarks-dataset",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

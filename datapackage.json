@@ -1,12 +1,33 @@
 {
+  "profile": "tabular-data-package",
   "name": "ndl-landmarks",
+  "id": "https://github.com/nakamura196/ndl-landmarks-dataset",
+  "version": "1.0.0",
+  "created": "2026-07-23",
   "title": "錦絵と写真でめぐる日本の名所（データセット）",
-  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」を地図データ化したもの。全国の名所と、各名所に紐づく江戸〜明治大正期の錦絵・写真(NDLデジタルコレクション)の一覧。",
+  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」を地図データ化したもの。名所(緯度経度付き)と、各名所に紐づく江戸〜明治大正期の錦絵・写真(NDLデジタルコレクション由来)の一覧。\nライセンスは3層に分かれる: 編纂データ(座標・分類・構造)は CC BY 4.0 / 画像は各行の rights を参照 / sights の description 列は国立国会図書館の著作物であり CC BY 4.0 の対象外 (© 国立国会図書館)。",
+  "homepage": "https://github.com/nakamura196/ndl-landmarks-dataset",
+  "keywords": [
+    "National Diet Library",
+    "IIIF",
+    "GeoJSON",
+    "digital humanities",
+    "meisho",
+    "ukiyo-e",
+    "Japan",
+    "open data"
+  ],
   "licenses": [
     {
       "name": "CC-BY-4.0",
-      "title": "Creative Commons Attribution 4.0",
+      "title": "Creative Commons Attribution 4.0 (編纂データ)",
       "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Satoru Nakamura",
+      "role": "author"
     }
   ],
   "sources": [
@@ -19,16 +40,24 @@
     {
       "name": "sights",
       "path": "sights.csv",
+      "profile": "tabular-data-resource",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\""
+      },
       "schema": {
-        "primaryKey": "slug",
+        "primaryKey": [
+          "slug"
+        ],
         "fields": [
           {
             "name": "slug",
             "type": "string",
-            "description": "名所の一意識別子"
+            "description": "名所の一意識別子 (URL slug)"
           },
           {
             "name": "title",
@@ -38,7 +67,12 @@
           {
             "name": "prefecture",
             "type": "string",
-            "description": "都道府県"
+            "description": "都道府県 (県境の名所は主たる1県)"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "地方区分 (北海道/東北/関東/中部/近畿/中国/四国/九州)"
           },
           {
             "name": "lat",
@@ -61,9 +95,14 @@
             "description": "紐づく画像点数"
           },
           {
+            "name": "other_material_count",
+            "type": "integer",
+            "description": "その他の資料 (書物参照) 件数"
+          },
+          {
             "name": "description",
             "type": "string",
-            "description": "解説 (© 国立国会図書館)"
+            "description": "解説。国立国会図書館の著作物 (© NDL) であり CC BY 4.0 の対象外。"
           },
           {
             "name": "description_rights",
@@ -82,16 +121,26 @@
     {
       "name": "images",
       "path": "images.csv",
+      "profile": "tabular-data-resource",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\""
+      },
       "schema": {
         "foreignKeys": [
           {
-            "fields": "sight_slug",
+            "fields": [
+              "sight_slug"
+            ],
             "reference": {
               "resource": "sights",
-              "fields": "slug"
+              "fields": [
+                "slug"
+              ]
             }
           }
         ],
@@ -110,6 +159,11 @@
             "name": "prefecture",
             "type": "string",
             "description": "都道府県"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "地方区分"
           },
           {
             "name": "category",
@@ -134,7 +188,7 @@
           {
             "name": "book_title",
             "type": "string",
-            "description": "書物タイトル (IIIF manifest 由来)"
+            "description": "書物タイトル (IIIF manifest 由来。空欄あり)"
           },
           {
             "name": "author",
@@ -149,13 +203,19 @@
           {
             "name": "rights",
             "type": "string",
-            "description": "権利表示 (Access Restrictions; PDM=パブリックドメイン 等)"
+            "description": "権利表示 (NDL Access Restrictions)。PDM=パブリックドメイン。空欄は IIIF manifest が無く未確認であることを示す (パブリックドメインを意味しない)。"
+          },
+          {
+            "name": "rights_url",
+            "type": "string",
+            "format": "uri",
+            "description": "権利表示の URL (PDM のみ)"
           },
           {
             "name": "iiif_image_url",
             "type": "string",
             "format": "uri",
-            "description": "IIIF 画像 URL"
+            "description": "IIIF 画像 URL (imagebank は静的JPEG)"
           },
           {
             "name": "iiif_thumb_url",
@@ -164,10 +224,113 @@
             "description": "IIIF サムネイル URL"
           },
           {
+            "name": "iiif_manifest_url",
+            "type": "string",
+            "format": "uri",
+            "description": "IIIF Presentation manifest (imagebank は空欄)"
+          },
+          {
             "name": "ndl_viewer_url",
             "type": "string",
             "format": "uri",
             "description": "NDL ビューア URL"
+          }
+        ]
+      }
+    },
+    {
+      "name": "other-materials",
+      "path": "other-materials.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "foreignKeys": [
+          {
+            "fields": [
+              "sight_slug"
+            ],
+            "reference": {
+              "resource": "sights",
+              "fields": [
+                "slug"
+              ]
+            }
+          }
+        ],
+        "fields": [
+          {
+            "name": "sight_slug",
+            "type": "string",
+            "description": "名所 slug (sights への外部キー)"
+          },
+          {
+            "name": "sight_title",
+            "type": "string",
+            "description": "名所名"
+          },
+          {
+            "name": "prefecture",
+            "type": "string",
+            "description": "都道府県"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "地方区分"
+          },
+          {
+            "name": "caption",
+            "type": "string",
+            "description": "キャプション (ある場合のみ)"
+          },
+          {
+            "name": "pid",
+            "type": "string",
+            "description": "NDLデジタルコレクション PID"
+          },
+          {
+            "name": "bib",
+            "type": "string",
+            "description": "書誌ID"
+          },
+          {
+            "name": "book_title",
+            "type": "string",
+            "description": "書物タイトル (空欄あり)"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "著者"
+          },
+          {
+            "name": "series",
+            "type": "string",
+            "description": "シリーズ名"
+          },
+          {
+            "name": "rights",
+            "type": "string",
+            "description": "権利表示 (NDL Access Restrictions)。PDM=パブリックドメイン。空欄は IIIF manifest が無く未確認であることを示す (パブリックドメインを意味しない)。"
+          },
+          {
+            "name": "rights_url",
+            "type": "string",
+            "format": "uri",
+            "description": "権利表示の URL (PDM のみ)"
+          },
+          {
+            "name": "ndl_page_url",
+            "type": "string",
+            "format": "uri",
+            "description": "NDL のページ URL"
           }
         ]
       }

@@ -1171,41 +1171,8 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/aoshima",
-        "image_count": 6,
+        "image_count": 3,
         "images": [
-          {
-            "category": "写真",
-            "caption": "青島ビロー樹",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/722,2151,1116,742/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/722,2151,1116,742/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0010"
-          },
-          {
-            "category": "写真",
-            "caption": "青島全景",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/766,1421,1052,668/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/766,1421,1052,668/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0010"
-          },
-          {
-            "category": "写真",
-            "caption": "青島神社",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/738,639,1122,732/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000010/738,639,1122,732/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0010"
-          },
           {
             "category": "写真",
             "caption": "青島の蒲葵樹林",
@@ -2865,7 +2832,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/daisen",
-        "image_count": 16,
+        "image_count": 13,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -2888,39 +2855,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/2592083/R0000002/1416,1159,5680,3792/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/2592083/R0000002/1416,1159,5680,3792/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/2592083"
-          },
-          {
-            "category": "写真",
-            "caption": "日野川より大山眺望",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000027/3492,2011,1542,1066/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000027/3492,2011,1542,1066/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0027"
-          },
-          {
-            "category": "写真",
-            "caption": "大神山神社奥宮",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000027/4556,599,1322,840/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000027/4556,599,1322,840/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0027"
-          },
-          {
-            "category": "写真",
-            "caption": "大山牛馬市",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000026/916,539,1220,852/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000026/916,539,1220,852/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0026"
           },
           {
             "category": "写真",
@@ -3327,7 +3261,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/dogoonsen",
-        "image_count": 10,
+        "image_count": 9,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -3427,17 +3361,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/967756/R0000017/942,546,1964,1404/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/967756/R0000017/942,546,1964,1404/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/967756"
-          },
-          {
-            "category": "写真",
-            "caption": "道後温泉公園",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2230,1313,994,692/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2230,1313,994,692/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0007"
           }
         ]
       }
@@ -4603,19 +4526,8 @@
         "description_rights": "",
         "zoom": 13,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/fushimi",
-        "image_count": 3,
+        "image_count": 2,
         "images": [
-          {
-            "category": "錦絵・絵画等",
-            "caption": "伏見桃山",
-            "pid": "2590971",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/2590971/R0000007/0,2227,3488,2768/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/2590971/R0000007/0,2227,3488,2768/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/2590971/1/0007"
-          },
           {
             "category": "錦絵・絵画等",
             "caption": "一 伏見稻荷山",
@@ -8979,7 +8891,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/itsukushimajinja",
-        "image_count": 42,
+        "image_count": 29,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -9167,149 +9079,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/762837/R0000040/1064,866,2364,1836/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/762837/R0000040/1064,866,2364,1836/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/762837"
-          },
-          {
-            "category": "写真",
-            "caption": "網の浦",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000033/727,1323,1442,968/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000033/727,1323,1442,968/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0033"
-          },
-          {
-            "category": "写真",
-            "caption": "経納山より厳島神社を望む",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000032/747,1349,1440,964/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000032/747,1349,1440,964/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0032"
-          },
-          {
-            "category": "写真",
-            "caption": "宝寿院より大華表を望む",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000029/689,1329,1452,962/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000029/689,1329,1452,962/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0029"
-          },
-          {
-            "category": "写真",
-            "caption": "紅葉谷公園",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000024/747,1383,1438,942/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000024/747,1383,1438,942/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0024"
-          },
-          {
-            "category": "写真",
-            "caption": "多宝塔",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000021/711,1329,1446,960/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000021/711,1329,1446,960/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0021"
-          },
-          {
-            "category": "写真",
-            "caption": "大元公園みかどホテル",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000018/723,1349,1456,952/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000018/723,1349,1456,952/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0018"
-          },
-          {
-            "category": "写真",
-            "caption": "松原",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000015/709,1329,1446,968/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000015/709,1329,1446,968/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0015"
-          },
-          {
-            "category": "写真",
-            "caption": "能舞台と大国社及天神社",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000013/701,1321,1456,972/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000013/701,1321,1456,972/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0013"
-          },
-          {
-            "category": "写真",
-            "caption": "舞楽台と火焼前",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000012/681,1329,1474,958/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000012/681,1329,1474,958/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0012"
-          },
-          {
-            "category": "写真",
-            "caption": "宝物館に接せる鏡の池",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000009/687,1331,1470,970/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000009/687,1331,1470,970/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0009"
-          },
-          {
-            "category": "写真",
-            "caption": "廻廊の入口にある客人神社",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000008/693,1311,1446,990/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000008/693,1311,1446,990/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0008"
-          },
-          {
-            "category": "写真",
-            "caption": "御笠濵より大華表を望む",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000006/717,1351,1414,960/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000006/717,1351,1414,960/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0006"
-          },
-          {
-            "category": "写真",
-            "caption": "厳島神社及大華表の全景",
-            "pid": "766062",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000004/685,1323,1450,986/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/766062/R0000004/685,1323,1450,986/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/766062/1/0004"
           },
           {
             "category": "写真",
@@ -9672,63 +9441,8 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/iwami",
-        "image_count": 13,
+        "image_count": 8,
         "images": [
-          {
-            "category": "写真",
-            "caption": "岩井温泉",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000016/4060,2111,1654,990/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000016/4060,2111,1654,990/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0016"
-          },
-          {
-            "category": "写真",
-            "caption": "小羽尾海岸",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/1520,2025,1612,1082/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/1520,2025,1612,1082/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0015"
-          },
-          {
-            "category": "写真",
-            "caption": "門島",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/746,793,1482,1016/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/746,793,1482,1016/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0015"
-          },
-          {
-            "category": "写真",
-            "caption": "網代港",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/3746,2105,1286,1012/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/3746,2105,1286,1012/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0015"
-          },
-          {
-            "category": "写真",
-            "caption": "千貫松",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/4432,1049,1162,804/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000015/4432,1049,1162,804/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0015"
-          },
           {
             "category": "写真",
             "caption": "網代港",
@@ -9925,7 +9639,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/iyakei",
-        "image_count": 11,
+        "image_count": 8,
         "images": [
           {
             "category": "写真",
@@ -9989,17 +9703,6 @@
             "book_title": "",
             "author": "",
             "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000075/696,598,3000,2084/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000075/696,598,3000,2084/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1688125/1/0075"
-          },
-          {
-            "category": "写真",
-            "caption": "鳴琴渓",
-            "pid": "1688125",
-            "book_title": "",
-            "author": "",
-            "rights": "",
             "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/1688125_71.jpg",
             "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/1688125_71.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1688125/1/71"
@@ -10014,28 +9717,6 @@
             "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/1688125_43.jpg",
             "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/1688125_43.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1688125/1/43"
-          },
-          {
-            "category": "写真",
-            "caption": "祖谷渓の夕陽",
-            "pid": "1688125",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000027/700,630,3028,2064/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000027/700,630,3028,2064/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1688125/1/0027"
-          },
-          {
-            "category": "写真",
-            "caption": "諏訪公園",
-            "pid": "1688125",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000019/664,626,3044,2048/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1688125/R0000019/664,626,3044,2048/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1688125/1/0019"
           },
           {
             "category": "写真",
@@ -10068,7 +9749,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/izumotaisha",
-        "image_count": 23,
+        "image_count": 22,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -10113,17 +9794,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/761459/R0000042/2368,946,1292,860/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/761459/R0000042/2368,946,1292,860/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/761459"
-          },
-          {
-            "category": "写真",
-            "caption": "出雲大社",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000036/3960,586,1628,1112/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000036/3960,586,1628,1112/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0036"
           },
           {
             "category": "写真",
@@ -11443,7 +11113,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/karo",
-        "image_count": 3,
+        "image_count": 2,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -11466,17 +11136,6 @@
             "iiif_image_url": "https://www.dl.ndl.go.jp/api/iiif/2540870/R0000022/3648,579,2704,3744/,800/0/default.jpg",
             "iiif_thumb_url": "https://www.dl.ndl.go.jp/api/iiif/2540870/R0000022/3648,579,2704,3744/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/2540870"
-          },
-          {
-            "category": "写真",
-            "caption": "賀露港",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000018/1688,2181,1384,890/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000018/1688,2181,1384,890/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0018"
           }
         ]
       }
@@ -12026,7 +11685,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/katsurahama",
-        "image_count": 4,
+        "image_count": 3,
         "images": [
           {
             "category": "写真",
@@ -12049,17 +11708,6 @@
             "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13113099_219.jpg",
             "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13113099_219.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13113099/1/219"
-          },
-          {
-            "category": "写真",
-            "caption": "桂浜全景",
-            "pid": "1210483",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1210483/R0000028/2254,551,1406,938/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1210483/R0000028/2254,551,1406,938/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1210483/1/0028"
           },
           {
             "category": "写真",
@@ -12532,7 +12180,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/kinosaki",
-        "image_count": 10,
+        "image_count": 8,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -12566,28 +12214,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/761461/R0000040/972,966,2660,1760/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/761461/R0000040/972,966,2660,1760/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/761461"
-          },
-          {
-            "category": "写真",
-            "caption": "城崎市街",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000009/848,1937,1802,1066/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000009/848,1937,1802,1066/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0009"
-          },
-          {
-            "category": "写真",
-            "caption": "城崎温泉",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000009/1868,631,1196,680/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000009/1868,631,1196,680/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0009"
           },
           {
             "category": "写真",
@@ -13566,19 +13192,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/kochi",
-        "image_count": 22,
+        "image_count": 19,
         "images": [
-          {
-            "category": "写真",
-            "caption": "旧高知城",
-            "pid": "13337108",
-            "book_title": "かうち : 附・商工人名録",
-            "author": "高知商業会議所 編",
-            "rights": "PDM",
-            "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13337108_15.jpg",
-            "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13337108_15.webp",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337108"
-          },
           {
             "category": "写真",
             "caption": "五台山全景",
@@ -13691,17 +13306,6 @@
           },
           {
             "category": "写真",
-            "caption": "潮江桟橋",
-            "pid": "13337108",
-            "book_title": "かうち : 附・商工人名録",
-            "author": "高知商業会議所 編",
-            "rights": "PDM",
-            "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13337108_10.jpg",
-            "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13337108_10.webp",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337108"
-          },
-          {
-            "category": "写真",
             "caption": "高知城",
             "pid": "13337108",
             "book_title": "かうち : 附・商工人名録",
@@ -13709,17 +13313,6 @@
             "rights": "PDM",
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13337108/R0000008/588,1082,1252,1600/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13337108/R0000008/588,1082,1252,1600/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337108"
-          },
-          {
-            "category": "写真",
-            "caption": "高知市街東部",
-            "pid": "13337108",
-            "book_title": "かうち : 附・商工人名録",
-            "author": "高知商業会議所 編",
-            "rights": "PDM",
-            "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13337108_7.jpg",
-            "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13337108_7.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337108"
           },
           {
@@ -13995,7 +13588,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/konpiragu",
-        "image_count": 19,
+        "image_count": 18,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -14183,17 +13776,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000034/1212,598,2336,1640/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000034/1212,598,2336,1640/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/12768050"
-          },
-          {
-            "category": "写真",
-            "caption": "金刀比羅宮",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/592,2058,1006,669/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/592,2058,1006,669/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0006"
           },
           {
             "category": "写真",
@@ -14985,41 +14567,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/kurayoshi",
-        "image_count": 7,
+        "image_count": 4,
         "images": [
-          {
-            "category": "写真",
-            "caption": "打吹公園長谷寺",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000023/1792,2054,1416,1056/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000023/1792,2054,1416,1056/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0023"
-          },
-          {
-            "category": "写真",
-            "caption": "打吹公園",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000023/3476,578,1212,864/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000023/3476,578,1212,864/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0023"
-          },
-          {
-            "category": "写真",
-            "caption": "倉吉町",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000022/3476,1994,1700,1068/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000022/3476,1994,1700,1068/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0022"
-          },
           {
             "category": "写真",
             "caption": "打吹公園内公会堂",
@@ -15513,7 +15062,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/kushiro",
-        "image_count": 14,
+        "image_count": 13,
         "images": [
           {
             "category": "写真",
@@ -15536,17 +15085,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/12900536/R0000050/881,1847,1480,1030/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/12900536/R0000050/881,1847,1480,1030/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/12900536"
-          },
-          {
-            "category": "写真",
-            "caption": "築港の埋立地",
-            "pid": "780882",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/780882/R0000008/1188,1066,2328,1716/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/780882/R0000008/1188,1066,2328,1716/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/780882/1/0008"
           },
           {
             "category": "写真",
@@ -16051,7 +15589,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/matsue",
-        "image_count": 15,
+        "image_count": 12,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -16118,39 +15656,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/761459/R0000042/2364,1850,1312,844/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/761459/R0000042/2364,1850,1312,844/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/761459"
-          },
-          {
-            "category": "写真",
-            "caption": "松江市街",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/860,2279,2372,828/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/860,2279,2372,828/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0031"
-          },
-          {
-            "category": "写真",
-            "caption": "松江市街",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/3496,2290,2340,844/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/3496,2290,2340,844/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0031"
-          },
-          {
-            "category": "写真",
-            "caption": "松江公園",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/3984,658,1452,1028/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000031/3984,658,1452,1028/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0031"
           },
           {
             "category": "写真",
@@ -16898,7 +16403,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/mihonoseki",
-        "image_count": 5,
+        "image_count": 3,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -16921,28 +16426,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/762809/R0000287/3752,1873,914,628/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/762809/R0000287/3752,1873,914,628/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/762809"
-          },
-          {
-            "category": "写真",
-            "caption": "美保神社",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000040/3616,2402,992,668/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000040/3616,2402,992,668/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0040"
-          },
-          {
-            "category": "写真",
-            "caption": "美保の関",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000040/4600,582,1388,828/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000040/4600,582,1388,828/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0040"
           },
           {
             "category": "写真",
@@ -17547,7 +17030,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/misaki",
-        "image_count": 3,
+        "image_count": 2,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -17570,17 +17053,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/762809/R0000170/2592,1873,896,606/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/762809/R0000170/2592,1873,896,606/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/762809"
-          },
-          {
-            "category": "写真",
-            "caption": "三浦三崎城ヶ島遊ヶ崎",
-            "pid": "905040",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/905040/R0000011/404,783,1254,716/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/905040/R0000011/404,783,1254,716/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/905040/1/0011"
           }
         ]
       }
@@ -17602,7 +17074,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/misasa",
-        "image_count": 8,
+        "image_count": 7,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -17614,17 +17086,6 @@
             "iiif_image_url": "https://www.dl.ndl.go.jp/api/iiif/2540870/R0000022/504,539,2712,3752/,800/0/default.jpg",
             "iiif_thumb_url": "https://www.dl.ndl.go.jp/api/iiif/2540870/R0000022/504,539,2712,3752/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/2540870"
-          },
-          {
-            "category": "写真",
-            "caption": "投入堂",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000022/788,1462,936,1596/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000022/788,1462,936,1596/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0022"
           },
           {
             "category": "写真",
@@ -18217,96 +17678,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/miyazaki",
-        "image_count": 16,
+        "image_count": 8,
         "images": [
-          {
-            "category": "写真",
-            "caption": "一ッ葉海浜",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000014/2092,2225,1126,734/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000014/2092,2225,1126,734/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0014"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎停車場",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000009/672,2205,1134,732/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000009/672,2205,1134,732/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0009"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎県庁",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000009/702,709,1116,712/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000009/702,709,1116,712/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0009"
-          },
-          {
-            "category": "写真",
-            "caption": "大淀川鉄橋",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/758,1475,1096,676/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/758,1475,1096,676/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0008"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎町より見たる中村町",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/694,2183,1096,726/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/694,2183,1096,726/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0008"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎町橘通",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/698,675,1098,746/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000008/698,675,1098,746/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0008"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎県立図書館",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/674,2167,1036,718/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/674,2167,1036,718/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0007"
-          },
-          {
-            "category": "写真",
-            "caption": "宮崎県物産陳列場",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/696,623,1046,734/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/696,623,1046,734/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0007"
-          },
           {
             "category": "写真",
             "caption": "宮崎県立図書館",
@@ -18415,7 +17788,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/miyazakijingu",
-        "image_count": 6,
+        "image_count": 4,
         "images": [
           {
             "category": "写真",
@@ -18427,28 +17800,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/761460/R0000049/844,942,2772,1816/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/761460/R0000049/844,942,2772,1816/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/761460"
-          },
-          {
-            "category": "写真",
-            "caption": "神苑",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/2084,627,980,732/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000007/2084,627,980,732/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0007"
-          },
-          {
-            "category": "写真",
-            "caption": "官幣大社宮崎神宮桜馬場",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000006/706,2103,1120,754/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000006/706,2103,1120,754/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0006"
           },
           {
             "category": "写真",
@@ -19042,7 +18393,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/muroran",
-        "image_count": 41,
+        "image_count": 40,
         "images": [
           {
             "category": "写真",
@@ -19277,17 +18628,6 @@
           },
           {
             "category": "写真",
-            "caption": "貯炭場",
-            "pid": "1899635",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1899635/R0000035/1208,2150,2248,1112/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1899635/R0000035/1208,2150,2248,1112/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1899635/1/0035"
-          },
-          {
-            "category": "写真",
             "caption": "室蘭商工会議所庁舎（昭和七年十月十五日以降）",
             "pid": "1258018",
             "book_title": "室蘭商工会議所沿革略史",
@@ -19515,30 +18855,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/murotomisaki",
-        "image_count": 5,
+        "image_count": 3,
         "images": [
-          {
-            "category": "写真",
-            "caption": "室戸岬",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/595,611,999,722/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/595,611,999,722/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0006"
-          },
-          {
-            "category": "写真",
-            "caption": "室戸岬毘砂姑岩付近",
-            "pid": "1224595",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1224595/R0000017/668,934,3056,1236/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1224595/R0000017/668,934,3056,1236/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1224595/1/0017"
-          },
           {
             "category": "写真",
             "caption": "黒潮高鳴る室戸岬",
@@ -20383,7 +19701,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/naha",
-        "image_count": 15,
+        "image_count": 13,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -20461,28 +19779,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000079/1036,526,2344,1600/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000079/1036,526,2344,1600/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/12768050"
-          },
-          {
-            "category": "写真",
-            "caption": "那覇港から那覇市街を望む",
-            "pid": "1876860",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1876860/R0000008/1568,466,1480,1000/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1876860/R0000008/1568,466,1480,1000/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1876860/1/0008"
-          },
-          {
-            "category": "写真",
-            "caption": "沖縄県庁",
-            "pid": "1876860",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1876860/R0000006/1480,450,1500,1016/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1876860/R0000006/1480,450,1500,1016/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1876860/1/0006"
           },
           {
             "category": "写真",
@@ -22208,19 +21504,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/niseko",
-        "image_count": 2,
+        "image_count": 1,
         "images": [
-          {
-            "category": "写真",
-            "caption": "ニセコアンヌブリのスキー",
-            "pid": "1876662",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1876662/R000053/3420,2626,2160,1416/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1876662/R000053/3420,2626,2160,1416/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1876662/1/053"
-          },
           {
             "category": "写真",
             "caption": "ニセコアンヌブリ",
@@ -23000,7 +22285,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/oboke",
-        "image_count": 5,
+        "image_count": 4,
         "images": [
           {
             "category": "写真",
@@ -23034,17 +22319,6 @@
             "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13337107_178.jpg",
             "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13337107_178.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337107"
-          },
-          {
-            "category": "写真",
-            "caption": "大歩危",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2044,2023,994,714/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2044,2023,994,714/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0007"
           },
           {
             "category": "写真",
@@ -23396,7 +22670,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/oiso",
-        "image_count": 17,
+        "image_count": 14,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -23540,39 +22814,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1873421/R0000037/928,734,3512,2580/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1873421/R0000037/928,734,3512,2580/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/1873421"
-          },
-          {
-            "category": "写真",
-            "caption": "大磯町中央部",
-            "pid": "963765",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/568,527,1266,842/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/568,527,1266,842/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/963765/1/0004"
-          },
-          {
-            "category": "写真",
-            "caption": "浴場の実景",
-            "pid": "963765",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/2390,1581,1288,852/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/2390,1581,1288,852/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/963765/1/0004"
-          },
-          {
-            "category": "写真",
-            "caption": "浴場の実景",
-            "pid": "963765",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/2420,529,1278,842/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/963765/R0000004/2420,529,1278,842/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/963765/1/0004"
           },
           {
             "category": "写真",
@@ -24682,7 +23923,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/ritsurinkoen",
-        "image_count": 7,
+        "image_count": 6,
         "images": [
           {
             "category": "写真",
@@ -24738,17 +23979,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13337107/R0000173/1006,2097,992,652/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13337107/R0000173/1006,2097,992,652/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/13337107"
-          },
-          {
-            "category": "写真",
-            "caption": "栗林公園",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/772,1347,987,694/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000006/772,1347,987,694/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0006"
           },
           {
             "category": "写真",
@@ -29255,30 +28485,8 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/takachiho",
-        "image_count": 3,
+        "image_count": 1,
         "images": [
-          {
-            "category": "写真",
-            "caption": "高千穂神橋",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000021/730,1851,732,1002/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000021/730,1851,732,1002/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0021"
-          },
-          {
-            "category": "写真",
-            "caption": "高千穂天ノ岩戸神社",
-            "pid": "13338042",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000021/750,623,1116,754/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13338042/R0000021/750,623,1116,754/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13338042/1/0021"
-          },
           {
             "category": "写真",
             "caption": "高千穂の峯",
@@ -29431,7 +28639,7 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/takamatsu",
-        "image_count": 25,
+        "image_count": 24,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -29652,17 +28860,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000031/1028,562,2280,1552/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/12768050/R0000031/1028,562,2280,1552/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/12768050"
-          },
-          {
-            "category": "写真",
-            "caption": "屋島談古嶺",
-            "pid": "1192236",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2037,613,1010,684/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1192236/R0000007/2037,613,1010,684/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1192236/1/0007"
           },
           {
             "category": "写真",
@@ -31432,41 +30629,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/tottori",
-        "image_count": 27,
+        "image_count": 24,
         "images": [
-          {
-            "category": "写真",
-            "caption": "樗谿神社",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000017/3388,1666,912,1424/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000017/3388,1666,912,1424/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0017"
-          },
-          {
-            "category": "写真",
-            "caption": "宇部神社",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000017/4476,566,1300,892/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000017/4476,566,1300,892/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0017"
-          },
-          {
-            "category": "写真",
-            "caption": "鳥取市街",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000016/756,1946,2244,1120/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000016/756,1946,2244,1120/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0016"
-          },
           {
             "category": "写真",
             "caption": "塩見駅",
@@ -32785,7 +31949,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 13,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/ueno",
-        "image_count": 93,
+        "image_count": 92,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -33116,17 +32280,6 @@
             "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/762062/R0000018/956,726,2552,2044/,800/0/default.jpg",
             "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/762062/R0000018/956,726,2552,2044/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/762062"
-          },
-          {
-            "category": "写真",
-            "caption": "上野公園東照宮",
-            "pid": "762806",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/762806/R0000032/1128,950,2448,1828/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/762806/R0000032/1128,950,2448,1828/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/762806/1/0032"
           },
           {
             "category": "写真",
@@ -35304,19 +34457,8 @@
         "description_rights": "",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/yonago",
-        "image_count": 12,
+        "image_count": 11,
         "images": [
-          {
-            "category": "写真",
-            "caption": "米子町",
-            "pid": "13725598",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000028/3504,2171,1782,908/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/13725598/R0000028/3504,2171,1782,908/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13725598/1/0028"
-          },
           {
             "category": "写真",
             "caption": "米子海浜",
@@ -35766,7 +34908,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/yoshinoyama",
-        "image_count": 19,
+        "image_count": 18,
         "images": [
           {
             "category": "錦絵・絵画等",
@@ -35778,17 +34920,6 @@
             "iiif_image_url": "https://www.dl.ndl.go.jp/api/iiif/2542930/R0000004/728,496,2280,3280/,800/0/default.jpg",
             "iiif_thumb_url": "https://www.dl.ndl.go.jp/api/iiif/2542930/R0000004/728,496,2280,3280/,200/0/default.jpg",
             "ndl_viewer_url": "https://dl.ndl.go.jp/info:ndljp/pid/2542930"
-          },
-          {
-            "category": "錦絵・絵画等",
-            "caption": "大和吉野",
-            "pid": "2590971",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/2590971/R0000012/48,2651,5016,2840/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/2590971/R0000012/48,2651,5016,2840/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/2590971/1/0012"
           },
           {
             "category": "錦絵・絵画等",
@@ -36107,7 +35238,7 @@
         "description_rights": "© 国立国会図書館",
         "zoom": 9,
         "source_url": "https://www.ndl.go.jp/landmarks/sights/yubari",
-        "image_count": 7,
+        "image_count": 4,
         "images": [
           {
             "category": "写真",
@@ -36141,39 +35272,6 @@
             "iiif_image_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc/13113099_360.jpg",
             "iiif_thumb_url": "https://ndlsearch.ndl.go.jp/files/imagebank/dc_t/13113099_360.webp",
             "ndl_viewer_url": "https://dl.ndl.go.jp/pid/13113099/1/360"
-          },
-          {
-            "category": "写真",
-            "caption": "夕張市街",
-            "pid": "933173",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/933173/R0000007/434,915,1428,922/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/933173/R0000007/434,915,1428,922/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/933173/1/0007"
-          },
-          {
-            "category": "写真",
-            "caption": "夕張鉱全景",
-            "pid": "933173",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/933173/R0000014/522,799,1410,978/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/933173/R0000014/522,799,1410,978/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/933173/1/0014"
-          },
-          {
-            "category": "写真",
-            "caption": "夕張炭鉱",
-            "pid": "1899635",
-            "book_title": "",
-            "author": "",
-            "rights": "",
-            "iiif_image_url": "https://dl.ndl.go.jp/api/iiif/1899635/R0000035/2590,597,2236,1480/,800/0/default.jpg",
-            "iiif_thumb_url": "https://dl.ndl.go.jp/api/iiif/1899635/R0000035/2590,597,2236,1480/,200/0/default.jpg",
-            "ndl_viewer_url": "https://dl.ndl.go.jp/pid/1899635/1/0035"
           },
           {
             "category": "写真",

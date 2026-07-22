@@ -166,11 +166,6 @@
       "label": "日本名勝旧蹟産業写真集. 奥羽・中部地方之部"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/13338042/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 13338042"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1172191/manifest.json",
       "@type": "sc:Manifest",
       "label": "宮崎県写真帖"
@@ -376,11 +371,6 @@
       "label": "日本風景選集. 4"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/13725598/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 13725598"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/13728495/manifest.json",
       "@type": "sc:Manifest",
       "label": "鳥取県案内"
@@ -409,11 +399,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/967756/manifest.json",
       "@type": "sc:Manifest",
       "label": "皇太子殿下行啓記念写真帖"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/1192236/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 1192236"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/2542601/manifest.json",
@@ -479,11 +464,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/1309565/manifest.json",
       "@type": "sc:Manifest",
       "label": "東海道　袋井"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/2590971/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 2590971"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/2542914/manifest.json",
@@ -856,11 +836,6 @@
       "label": "旅の家つと. 第１６ 宮島の巻"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/766062/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 766062"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1918811/manifest.json",
       "@type": "sc:Manifest",
       "label": "岩美郡史"
@@ -1081,11 +1056,6 @@
       "label": "春日野の鹿"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/1210483/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 1210483"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1241880/manifest.json",
       "@type": "sc:Manifest",
       "label": "高知県誌"
@@ -1276,11 +1246,6 @@
       "label": "北海道名所案内"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/780882/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 780882"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1900258/manifest.json",
       "@type": "sc:Manifest",
       "label": "釧路市案内"
@@ -1441,11 +1406,6 @@
       "label": "相州三浦之海上"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/905040/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 905040"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1309514/manifest.json",
       "@type": "sc:Manifest",
       "label": "東海道　見附"
@@ -1511,11 +1471,6 @@
       "label": "室蘭市史. 上"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/1224595/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 1224595"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1306632/manifest.json",
       "@type": "sc:Manifest",
       "label": "大日本国郡名所　越後古志郡長岡"
@@ -1554,11 +1509,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/12864459/manifest.json",
       "@type": "sc:Manifest",
       "label": "日本風景版画. 第7輯"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/1876860/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 1876860"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/1309925/manifest.json",
@@ -1641,11 +1591,6 @@
       "label": "日光田母澤小林氏別業全圖"
     },
     {
-      "@id": "https://dl.ndl.go.jp/api/iiif/1876662/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 1876662"
-    },
-    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1309518/manifest.json",
       "@type": "sc:Manifest",
       "label": "東海道　日坂"
@@ -1704,11 +1649,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/1309586/manifest.json",
       "@type": "sc:Manifest",
       "label": "東海道名所之内　梅沢"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/963765/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 963765"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/1176351/manifest.json",
@@ -2006,6 +1946,11 @@
       "label": "NDL 1020455"
     },
     {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1876662/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1876662"
+    },
+    {
       "@id": "https://dl.ndl.go.jp/api/iiif/1192503/manifest.json",
       "@type": "sc:Manifest",
       "label": "北海道の山岳 : 登山案内"
@@ -2224,11 +2169,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/762246/manifest.json",
       "@type": "sc:Manifest",
       "label": "旅の家つと. 第２９ 都の巻"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/762806/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 762806"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/1305484/manifest.json",
@@ -2514,11 +2454,6 @@
       "@id": "https://dl.ndl.go.jp/api/iiif/1304732/manifest.json",
       "@type": "sc:Manifest",
       "label": "なには百景の内　四つばし"
-    },
-    {
-      "@id": "https://dl.ndl.go.jp/api/iiif/933173/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "NDL 933173"
     },
     {
       "@id": "https://dl.ndl.go.jp/api/iiif/1309818/manifest.json",

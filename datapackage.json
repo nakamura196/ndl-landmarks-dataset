@@ -1,0 +1,176 @@
+{
+  "name": "ndl-landmarks",
+  "title": "錦絵と写真でめぐる日本の名所（データセット）",
+  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」を地図データ化したもの。全国の名所と、各名所に紐づく江戸〜明治大正期の錦絵・写真(NDLデジタルコレクション)の一覧。",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "国立国会図書館「錦絵と写真でめぐる日本の名所」",
+      "path": "https://www.ndl.go.jp/landmarks"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sights",
+      "path": "sights.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "primaryKey": "slug",
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "名所の一意識別子"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "名所名"
+          },
+          {
+            "name": "prefecture",
+            "type": "string",
+            "description": "都道府県"
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "緯度 (WGS84)"
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "経度 (WGS84)"
+          },
+          {
+            "name": "zoom",
+            "type": "integer",
+            "description": "推奨地図ズーム"
+          },
+          {
+            "name": "image_count",
+            "type": "integer",
+            "description": "紐づく画像点数"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "解説 (© 国立国会図書館)"
+          },
+          {
+            "name": "description_rights",
+            "type": "string",
+            "description": "解説文の権利表示"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "出典 (NDL 名所ページ)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "images",
+      "path": "images.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "foreignKeys": [
+          {
+            "fields": "sight_slug",
+            "reference": {
+              "resource": "sights",
+              "fields": "slug"
+            }
+          }
+        ],
+        "fields": [
+          {
+            "name": "sight_slug",
+            "type": "string",
+            "description": "名所 slug (sights への外部キー)"
+          },
+          {
+            "name": "sight_title",
+            "type": "string",
+            "description": "名所名"
+          },
+          {
+            "name": "prefecture",
+            "type": "string",
+            "description": "都道府県"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "種別 (錦絵・絵画等 / 写真)"
+          },
+          {
+            "name": "caption",
+            "type": "string",
+            "description": "図版キャプション (原資料の題)"
+          },
+          {
+            "name": "pid",
+            "type": "string",
+            "description": "NDLデジタルコレクション PID"
+          },
+          {
+            "name": "bib",
+            "type": "string",
+            "description": "書誌ID"
+          },
+          {
+            "name": "book_title",
+            "type": "string",
+            "description": "書物タイトル (IIIF manifest 由来)"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "著者/絵師"
+          },
+          {
+            "name": "series",
+            "type": "string",
+            "description": "シリーズ名"
+          },
+          {
+            "name": "rights",
+            "type": "string",
+            "description": "権利表示 (Access Restrictions; PDM=パブリックドメイン 等)"
+          },
+          {
+            "name": "iiif_image_url",
+            "type": "string",
+            "format": "uri",
+            "description": "IIIF 画像 URL"
+          },
+          {
+            "name": "iiif_thumb_url",
+            "type": "string",
+            "format": "uri",
+            "description": "IIIF サムネイル URL"
+          },
+          {
+            "name": "ndl_viewer_url",
+            "type": "string",
+            "format": "uri",
+            "description": "NDL ビューア URL"
+          }
+        ]
+      }
+    }
+  ]
+}

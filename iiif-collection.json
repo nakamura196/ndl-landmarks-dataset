@@ -1,0 +1,2529 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://www.ndl.go.jp/landmarks/iiif-collection.json",
+  "@type": "sc:Collection",
+  "label": "錦絵と写真でめぐる日本の名所",
+  "attribution": "出典: 国立国会図書館「錦絵と写真でめぐる日本の名所」 (https://www.ndl.go.jp/landmarks)",
+  "manifests": [
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13337107/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "鉄道旅行案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/966636/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "開道五十年記念北海道拓殖写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12984526/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝風俗大写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1877025/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本案内記. 北海道篇"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306625/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大日本国郡名所　奥州会津郡若松"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864454/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第2輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12900533/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三島通庸三県道路改修抄図. 「福島県」（図版５３枚）"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/780712/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "皇太子殿下行啓紀念帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/763455/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "福島県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1209902/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "景観を尋ねて"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312287/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　赤坂桐畑"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312288/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　赤坂桐畑雨中夕けい"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312321/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　紀の国坂赤坂溜池遠景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592128/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [3]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542929/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542756/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "武蔵百景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764109/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京景色写真版"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/763843/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "最新東京名所写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764233/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所写真帖 : Views of Tokyo. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762376/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764195/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京府名勝図絵"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13113099/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 13113099"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1207821/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本之名勝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/958394/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "秋田案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764670/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "富山県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864457/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第5輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762864/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名所帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762809/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本之名勝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/761459/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "地理写真帖. 内國之部第2帙 "
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762257/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第４２ 奥羽の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/966069/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "青森県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12767898/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝旧蹟産業写真集. 奥羽・中部地方之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13338042/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 13338042"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1172191/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "宮崎県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13338043/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "神都宮崎写真画報"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1873421/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道 : 広重画五拾三次現状写真対照"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2550827/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道風景図会 2編. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309520/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　荒井"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2550951/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道五十三次. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/9369213/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "改正五十三驛"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309816/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　信州浅間山真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2553180/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "西遊街道図絵. [1]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306609/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海名産尽　信濃蕎麦"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12767897/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝旧蹟産業写真集. 関東地方之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762817/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景風俗写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12768050/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝旧蹟産業写真集. 中国・四国・九州地方之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309491/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　熱田一の鳥居"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309530/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　宮駅熱田社"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308356/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　淡路　五色浜"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2540870/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国六十八景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762811/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本百景. 下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1301326/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "磐梯山噴火の図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762810/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本百景. 上"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2586549/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "川瀬巴水版画集. 1"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/761461/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "地理写真帖. 内國之部第4帙"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1900792/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大分縣寫真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308369/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　薩摩　坊ノ浦双剣石"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309776/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　武蔵秩父山中"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309528/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　池鯉鮒"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309527/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道之内　池鯉鮒"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13183820/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本大観"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309825/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　出羽鳥海山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/761460/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "地理写真帖. 内國之部第3帙"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308322/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　下総　銚子の浜外浦"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864456/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第4輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762225/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第７ 陸奥の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1899839/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "平泉志"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309798/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　下野中禅寺湖水"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2552970/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "過眼掌記. [1]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542755/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝図会"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2586550/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "川瀬巴水版画集. 2"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762837/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝写真図譜略説"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308344/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　伯耆　大野大山遠望"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592083/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景選集. 4"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13725598/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 13725598"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13728495/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "鳥取県案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1235147/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "鳥取県史蹟名勝案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1287971/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔西国写生〕. 第２帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2553181/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "西遊街道図絵. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1544978/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1544978"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/967756/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "皇太子殿下行啓記念写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1192236/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1192236"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542601/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浪華百景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309526/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　藤川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308993/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "百人一首うはかゑとき. 山辺の赤人"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1311564/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "撰雪六六談　望嶽"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/11299479/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名勝八景. 富士暮雪"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2533244/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "富岳写真"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12118900/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "富士百勝景. 前集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12314684/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名景画集. 其1"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2550826/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道風景図会 2編. [1]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309490/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　藤沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309489/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　ふぢさは遊行寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2550950/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道五十三次. [1]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309565/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　袋井"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2590971/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 2590971"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542914/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "京洛名所 : 野村芳光創作版画"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309579/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道之内　二川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764980/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "岐阜県写真帖 : 東宮行啓紀念"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308350/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　備中　豪渓"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309806/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　肥前五嶋鯨漁の図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309577/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　御油"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762062/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "仁山智水帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/763256/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "男鹿名勝写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/766330/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "防長名蹟"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1906697/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "今上陛下北海道行幸記念札幌工場写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309492/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　箱根"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309494/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　箱根山中陰石"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309499/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　箱根山中猪狩"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309498/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　ハコネ湯治"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303445/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "はこねの湖すい"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303643/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "塔の沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303644/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "湯もと"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303645/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "宮の下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303646/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "木賀"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303647/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "底倉"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303648/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "芦のゆ"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303649/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "堂かしま"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2605149/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "清親畫帖. [3]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308361/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　筑前　筥崎海中の道"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864453/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第1輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/764167/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京風景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309507/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　浜松"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/780856/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東宮行啓紀念写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308328/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　上野　榛名山雪中"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542851/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "榛名摺臼岩"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542854/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "伊香保の夏の夕"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309827/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　大和長谷寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542930/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542926/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 2542926"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2541755/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 2541755"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308326/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　飛弾　籠わたし"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592077/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第3集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309549/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　比叡山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305960/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "都名所之内　比叡山山上より湖水を望"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304829/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "都名所之内　比叡山山上より湖水を望"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1879909/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "姫路誌"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592076/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第2集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309487/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　四ツ谷"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309588/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　平塚"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303442/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "さがみ川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762241/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第２４ 山陽の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309485/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道 程ケ谷其二"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309483/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　権太坂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308370/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　壱岐　志作"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306613/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海名産尽　肥前国伊万里焼"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1112166/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "佐賀県大観 : 御大典記念"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12899967/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "沖縄写真帖. 第2輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12899968/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "沖縄写真帖. 第1輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309545/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　石部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309761/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　五十一　水口,五十三次名所図会　五十二　石部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2554563/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道五拾三次. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309445/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "石部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306037/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 石部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/11038496/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "北齋東海道"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/780859/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東宮行啓記念宮城県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309535/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　石薬師"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309773/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　四十五　石薬師,五十三次名所図会　四十六　庄野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309439/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "石薬師"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306084/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 石薬師"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308324/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　近江　琵琶湖石山寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309544/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　石山之秋月"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303473/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "近江八景　石山秋月"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306915/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "石山秋月"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308359/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　伊予　西条"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308352/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　安芸　厳島祭礼之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309777/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　安芸宮島汐干"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2533713/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "安芸国厳島勝景図附記事"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592073/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第2集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762233/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第１６ 宮島の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/766062/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 766062"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1918811/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "岩美郡史"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1688125/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1688125"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308345/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　出雲　大社ほとほとの図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1899762/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "島根縣寫眞帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309830/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　薩州枕崎海門ヶ嶽寿星踊"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309517/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　掛川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305487/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "亀井戸"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308402/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江戸高名会亭尽〕　亀戸裏門"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305439/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所亀井戸池中藤花之盛"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309934/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名勝図会 亀井戸天神"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312301/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　亀戸天神境内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303553/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所. 亀井戸天神ふし"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303592/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "亀戸天満宮"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308300/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "亀井戸天満宮境内一覧"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305715/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸自慢三十六興 亀井戸初卯詣"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592127/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2541716/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所三十六戯撰"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303626/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "梅やしき漬梅"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305438/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所梅屋舖満花之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303591/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "亀戸梅やしき"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312266/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　亀戸梅屋舗"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303477/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所　亀戸梅屋舗ノ図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305424/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸むらさき名所源氏亀戸梅屋舖 見立梅かえ"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2605147/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "清親畫帖. [1]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592130/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [5]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309539/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　亀山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309772/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　四十七　亀山,五十三次名所図会　四十八　関"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309436/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "かめやま"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306042/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 四十七 亀山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309548/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　加茂川遊覧"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12109255/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "都会夜趣 : 版画"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309590/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　神名川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309486/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　神奈川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309513/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　金谷"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309516/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　金谷日坂之間菊川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308334/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　加賀　金沢八勝之内蓮湖之漁火"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309809/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　加州金沢大乗寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592072/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第1集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308343/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　因幡　加路小山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306292/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "拾九　木曽海道六拾九次之内軽井沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542562/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762379/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "[日本勝景写真帖]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308323/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　常陸　鹿島太神宮"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305152/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "春日野の鹿"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1210483/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1210483"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1241880/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "高知県誌"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2591640/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "京阪名所図絵. [5]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2591644/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "京阪名所図絵. [9]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304748/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浪花百景之内　天満宮御旅所"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304749/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浪花百景之内　松が鼻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304730/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浪花百景之内　川口の真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309593/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　川崎"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309462/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　大師河原"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592074/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第3集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308353/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　周防　岩国錦帯橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309799/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　周防岩国錦帯橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1287970/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔西国写生〕. 第１帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309803/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　信州木曽の雪"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2533723/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "葛飾北斎喜多川歌麿画帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306235/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "木曽海道六拾九次之内贄川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306221/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三拾八　木曽海道六拾九次之内福しま"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306220/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三拾九　木曽海道六拾九次之内上ケ松"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306241/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四拾　木曽海道六拾九次之内須原"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306261/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四十弐　木曽海道六拾九次之内三渡野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306248/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四拾三 木曽海道六拾九次之内妻篭"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312292/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　深川万年橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2591649/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "[諸国名所]. [5]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13337108/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "かうち : 附・商工人名録"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1900010/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "高知市誌"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308357/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　讃岐　象頭山遠望"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307353/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海見立相撲讃岐象頭山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762234/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第１７ 讃岐の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1185617/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四国大観. 香川県之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304728/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浪花百景之内　高麗橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/766119/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "岡山後楽園"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309842/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国六玉川　紀伊高野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/9369190/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "高野山略図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308321/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　上総　矢さしか浦通名九十九里"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309546/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　草津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309747/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　五十三　草津,五十三次名所図会　五十四　大津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309444/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "草津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306054/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 草津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12900536/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "北海道名所案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/780882/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 780882"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1900258/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "釧路市案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1899635/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1899635"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309531/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　桑名"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309529/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　桑名蜃気楼"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309774/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　四十三　桑名,五十三次名所図会　四十四　四日市"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309454/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "桑名"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306055/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 桑名"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308347/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　播磨　舞子の浜"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309824/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　播州舞子の浜"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309521/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　舞坂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592082/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景選集. 3"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1220227/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "島根県史蹟名勝天然紀念物並国宝概説"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308330/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　陸奥　松島風景富山眺望之略図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309797/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　奥州松島真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12930936/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "松島真景全図 : 大日本三景一"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2533710/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "松島名勝考"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864455/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第3輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/763475/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "松島"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/780858/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "行啓紀念写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/966130/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "松島写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1544981/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1544981"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309547/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　大津三井寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303468/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "近江八景　三井晩鐘"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306918/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三井晩鐘"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/967895/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三井三池各事業所写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/920910/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三池炭鉱と大牟田市写真帳"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309821/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　越前三国の大湊"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307352/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海見立相撲越前三国"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309542/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　水口"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309451/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "水口"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306040/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 水口"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303441/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "相州三浦之海上"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/905040/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 905040"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309514/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　見附"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309512/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　宮"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308331/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　出羽　最上川月山遠望"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1900439/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "盛岡案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1236396/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1236396"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/13769143/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "全国有名神社御写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1053145/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "室蘭商工名録. 昭和12年版"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1901754/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1901754"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12768049/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝旧蹟産業写真集. 台湾・北海道・樺太・朝鮮・満洲及関東州地方之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1258018/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "室蘭商工会議所沿革略史"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1053493/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "室蘭商工名録. 昭和9年版"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1042066/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "室蘭市史. 下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1042054/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "室蘭市史. 上"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1224595/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1224595"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306632/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大日本国郡名所　越後古志郡長岡"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/7972301/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 7972301"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308365/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　肥前　長崎稲佐山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309786/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　肥前長崎唐船の津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309807/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　肥前長崎目鏡橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309833/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　長崎丸山の景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1186863/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "雲仙"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12864459/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本風景版画. 第7輯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1876860/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1876860"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309925/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名勝図会　中野宝仙寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1688598/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道線東京近郊電化写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309800/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　美濃落合はし"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306277/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四拾五　木曽海道六拾九次之内落合"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306278/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四拾六　木曽海道六拾九次之内中津川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305148/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三笠山の雪"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309781/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　下総成田山境内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309524/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　鳴海有松絞"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308358/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　阿波　鳴門の風波"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309837/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　阿波鳴戸真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2591647/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "[諸国名所]. [3]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309815/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　越後新潟の景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1881232/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "図書館の写真"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308329/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　下野　日光山裏見ノ滝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309794/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　日光霧降の滝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542672/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日光田母澤小林氏別業全圖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1876662/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1876662"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309518/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　日坂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309804/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　房州鋸山日本寺"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308335/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　能登　滝之浦"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308367/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　日向　油津ノ湊飫肥大島"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1688157/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1688157"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309496/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　酒匂川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309589/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　小田原"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542857/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "雄鹿半島竜ケ崎"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309585/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　鴨立沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309493/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道之内　大磯"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309495/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　南湖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309586/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　梅沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/963765/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 963765"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1176351/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本案内記. 東北篇"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309576/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　岡崎"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308340/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　隠岐　焚火の社"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309785/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　隠岐焚火社"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306250/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "第五　木曽街道大宮宿富士遠景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/763257/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "奥州南部恐山写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309571/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道之内　膳所矢橋の帰帆"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309441/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306100/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 大津"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308337/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　越後　親しらず"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1182537/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山寺名勝写真帖 : 東北之奇景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/988177/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "北海道留萠線全通記念"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1112006/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "奇勝竜河洞の全貌"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308338/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　佐渡　金やま"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309820/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　佐渡金山奥穴の図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/967083/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "日本名勝旧蹟産業写真集. 奥羽・中部地方之部"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309540/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　坂ノ下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309755/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五十三次名所図会　四十九　坂の下,五十三次名所図会　五十　土山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309442/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "坂ノ下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306041/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 坂ノ下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308368/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　大隅　さくらしま"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308314/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　甲斐　さるはし"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/967750/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "佐世保案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309572/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道之内　関"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309424/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "関"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306039/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 関"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306276/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "五拾九　木曽海道六拾九次之内関か原"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762235/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第１８ 陸奥の巻下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308309/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　志摩　日和山鳥羽湊"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309515/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　嶋田"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308354/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　長門　下の関"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542830/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "新富町新富座景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306630/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大日本国郡名所　奥州白川郡白川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304957/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　白須賀"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/7972185/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 7972185"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304958/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　庄野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309437/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "庄野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306089/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 庄野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309802/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　奥州相馬妙見祭馬追の図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303479/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江都名所　隅田川はな盛"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309919/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名勝図会　墨田川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305156/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "隅田川"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542864/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "[隅田川之図]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309954/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸八景　隅田川の落雁"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306938/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所八景之内　隅田川落雁"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308297/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "隅田川両川岸一目の月"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308750/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都隅田川八重桜"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308318/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　武蔵　隅田川雪の朝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305795/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所隅田川全図雪中景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306604/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海名産尽　東都第一角田川の白魚"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2605148/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "清親畫帖. [2]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592132/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [7]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592134/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [9]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12069676/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京風景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542937/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京開化三十六景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303452/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "信州諏訪之湖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306287/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三拾　木曽海道六拾九次之内下諏訪"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/7972223/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 7972223"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1020455/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1020455"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1192503/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "北海道の山岳 : 登山案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1688692/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1688692"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/8312004/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 8312004"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1096563/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "北海道案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1218005/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1218005"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1168569/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "皇国新地誌 : 教育資料. 2 (北海道・樺太)"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1684680/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1684680"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306627/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "大日本国郡名所　越後左志郡高田"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309811/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　讃州五剣山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/966179/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "富山県写真帖"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1112077/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "躍進富山県"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306230/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "拾四　木曽海道六拾九次之内高崎"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309813/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　越中立山真景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307351/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山海見立相撲越中立山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1301979/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江都名所〕"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307367/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所深川八幡の社"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308031/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "新板浮絵富賀岡八幡宮之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303551/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所. 深川八幡宮"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303599/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "深川八まん"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308403/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江戸高名会亭尽〕　深川八幡境内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303609/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "深川八まん牡丹"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308404/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江戸高名会亭尽〕　深川八幡前"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312304/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　深川八まん山ひらき"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312305/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　深川三十三間堂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303514/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所. 深川三拾三間堂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305876/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上州富岡製糸場之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312610/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上州富岡製糸場"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309464/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　戸塚"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308336/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　越中　富山船橋"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1544982/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1544982"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309538/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　土山鈴ケ山坂ノ下"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309532/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　土山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309543/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　土山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309443/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "土山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306045/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 土山"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308333/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　越前　敦賀気比ノ松原"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308371/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　対馬　海岸夕晴"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309791/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　対州海岸"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1544986/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1544986"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2542816/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "[上野公園の図]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592129/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [4]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592131/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [6]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592133/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [8]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762246/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅の家つと. 第２９ 都の巻"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/762806/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 762806"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305484/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "池の端"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308390/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江戸高名会亭尽〕　〔池之端〕"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312325/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　上野山内月のまつ"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305153/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸不忍弁天ヨリ東叡山ヲ見ル図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307348/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "不忍池の落鳫"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1301974/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江都名所〕"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303522/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所. 不忍之池"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305142/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都花暦　不忍蓮"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309928/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名勝図会　不忍弁天"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308832/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸十二景　不忍暮雪／高輪秋月／隅田川夜雨／洲崎日ノ出"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303578/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "不忍池"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303518/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所. 不忍池"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305733/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸自慢三十六興　不忍池蓮花"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309956/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸八景　忍岡の暮雪"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307360/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "新撰江戸名所 不忍池新土堤春之景"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305513/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "落雁　（不忍ノ池）"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592135/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東京名所. [10]"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305486/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304641/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所発句合之内　上野"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305141/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都花暦　上野清水之桜"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312247/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　上野清水堂不忍ノ池"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303546/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所. 上野東叡山境内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303478/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都名所　上野東叡山ノ図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308036/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名所上野仁王門之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309959/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸八景　上野の晩鐘"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305434/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上野晩鐘"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303577/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上野満花の詠"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308032/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "浮絵　東叡山中堂之図"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305735/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸自慢三十六興　東叡山花さかり"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303526/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東都八勝. 上野晩鐘"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1307236/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "上野清水堂"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1305511/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "晩鐘　（上野清水堂）"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309939/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "江戸名勝図会 御行の松"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312248/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　上野山した"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308389/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "〔江戸高名会亭尽〕　〔下谷広小路〕"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1303579/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "下谷広小路"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1312249/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "名所江戸百景　下谷広小路"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308355/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　紀伊　和哥之浦"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308332/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　若狭　漁船鰈網"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309808/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　若狭かれゐを制す"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/2592075/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "旅みやげ. 第1集"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/971984/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 971984"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1901135/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1901135"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1086946/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1086946"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1516815/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 1516815"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308363/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　豊前　羅漢寺下道"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/12894643/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "三島通庸三県道路改修抄図. 「山形県」（図版５５枚）"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/948430/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "山形県案内"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309574/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　四日市"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309537/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道名所之内　四日市追分"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309440/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "四日市"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1306085/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "末広五十三次. 四日市"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/921529/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "最新之米沢"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1308325/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "六十余州名所図会　美濃　養老ノ滝"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309522/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　吉田"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309562/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "東海道　吉田其二"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1304732/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "なには百景の内　四つばし"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/933173/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "NDL 933173"
+    },
+    {
+      "@id": "https://dl.ndl.go.jp/api/iiif/1309818/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "諸国名所百景　信州善光寺道久須里山"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# ライセンス / License
+
+## 編纂データ (Compilation)
+
+本リポジトリに含まれる編纂データ — 座標、分類、CSV / GeoJSON / JSON の構造、
+書誌メタデータの集約 — は **Creative Commons Attribution 4.0 International
+(CC BY 4.0)** の下で提供されます。
+https://creativecommons.org/licenses/by/4.0/
+
+利用の際は次の帰属表示をお願いします:
+
+> 出典: 国立国会図書館「錦絵と写真でめぐる日本の名所」(https://www.ndl.go.jp/landmarks)
+> をもとに作成したデータセット。
+
+The compiled data in this repository (coordinates, categories, the CSV / GeoJSON /
+JSON structure, and aggregated bibliographic metadata) is licensed under
+**CC BY 4.0**. Please attribute the National Diet Library exhibition as above.
+
+## 画像 (Images)
+
+画像そのものは国立国会図書館デジタルコレクション由来であり、権利状態は資料ごとに
+異なります。各レコードの `rights` 列 / `images[].rights` を参照してください
+(`PDM` = パブリックドメイン)。各画像の一次情報は `ndl_viewer_url` / `iiif_image_url`
+を参照してください。
+
+Images originate from the NDL Digital Collections and their rights status varies
+per item — see the `rights` field of each record (`PDM` = Public Domain Mark).
+
+## 解説文 (Descriptions)
+
+`description` 列に含まれる解説文は国立国会図書館が執筆したテキストであり、
+著作権は同館に帰属します (© 国立国会図書館)。転載時は引用の範囲と出典明示に
+ご留意ください。
+
+The `description` text is authored by and copyright of the National Diet Library.

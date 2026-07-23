@@ -2,11 +2,11 @@
   "profile": "tabular-data-package",
   "name": "ndl-landmarks",
   "id": "https://doi.org/10.5281/zenodo.21501348",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "doi": "10.5281/zenodo.21501348",
   "created": "2026-07-23",
   "title": "錦絵と写真でめぐる日本の名所（データセット）",
-  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」を地図データ化したもの。名所(緯度経度付き)と、各名所に紐づく江戸〜明治大正期の錦絵・写真(NDLデジタルコレクション由来)の一覧。\nライセンスは3層に分かれる: 編纂データ(座標・分類・構造)は CC BY 4.0 / 画像は各行の rights を参照 / sights の description 列は国立国会図書館の著作物であり CC BY 4.0 の対象外 (© 国立国会図書館)。",
+  "description": "国立国会図書館の電子展示会「錦絵と写真でめぐる日本の名所」の公開ページから機械的に抽出し、地図データ形式へ変換・整形した非公式の二次データセット (国立国会図書館が作成・公認したものではない)。名所(緯度経度付き)と、各名所に紐づく江戸〜明治大正期の錦絵・写真(NDLデジタルコレクション由来)の一覧。\nライセンスは3層に分かれる: 編纂データ(座標・分類・構造)は CC BY 4.0 / 画像は各行の rights を参照 / sights の description 列は国立国会図書館の著作物であり CC BY 4.0 の対象外 (© 国立国会図書館)。",
   "homepage": "https://github.com/nakamura196/ndl-landmarks-dataset",
   "keywords": [
     "National Diet Library",

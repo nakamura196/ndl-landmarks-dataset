@@ -3,7 +3,7 @@
   "name": "ndl-landmarks",
   "metadata": {
     "title": "錦絵と写真でめぐる日本の名所（データセット）",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": "国立国会図書館「錦絵と写真でめぐる日本の名所」",
     "source_url": "https://www.ndl.go.jp/landmarks",
     "license": "編纂データは CC BY 4.0。画像の権利は各 images[].rights を参照。解説は © 国立国会図書館。",

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "このデータセットを利用する場合は以下を引用してください。"
 title: "錦絵と写真でめぐる日本の名所 データセット (NDL Landmarks Dataset)"
 type: dataset
-version: "1.0.0"
+version: "1.0.1"
 doi: "10.5281/zenodo.21501348"
 identifiers:
   - type: doi

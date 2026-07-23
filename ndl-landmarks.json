@@ -1,6 +1,6 @@
 {
   "title": "錦絵と写真でめぐる日本の名所（データセット）",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "国立国会図書館「錦絵と写真でめぐる日本の名所」",
   "source_url": "https://www.ndl.go.jp/landmarks",
   "license": "CC-BY-4.0 (編纂データ)",

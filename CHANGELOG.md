@@ -3,6 +3,13 @@
 本データセットは [Keep a Changelog](https://keepachangelog.com/) と
 [セマンティックバージョニング](https://semver.org/) に従います。
 
+## [1.0.2] - 2026-07-23
+
+- Zenodo メタデータを拡充: 著者 ORCID (0000-0001-8245-7925)・所属、`language: jpn`、
+  作成方法 (method)、地理座標 (locations)、参考文献 (references)、記事への
+  related identifier (isDocumentedBy) を追加。データ内容は 1.0.1 と同一。
+- CITATION.cff に ORCID・所属を追加。
+
 ## [1.0.1] - 2026-07-23
 
 - README・datapackage・Zenodo 説明に**位置づけ・免責**を明記: 本データセットは NDL

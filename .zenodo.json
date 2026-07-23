@@ -4,8 +4,14 @@
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by-4.0",
+  "version": "1.0.2",
+  "language": "jpn",
   "creators": [
-    { "name": "Nakamura, Satoru" }
+    {
+      "name": "Nakamura, Satoru",
+      "orcid": "0000-0001-8245-7925",
+      "affiliation": "The University of Tokyo, Historiographical Institute"
+    }
   ],
   "keywords": [
     "National Diet Library",
@@ -17,16 +23,17 @@
     "Japan",
     "open data"
   ],
+  "method": "国立国会図書館「錦絵と写真でめぐる日本の名所」の公開Webページに埋め込まれた構造化データ（Nuxt の __NUXT_DATA__ ペイロード）と、各資料の IIIF Presentation マニフェストから機械的に抽出。名所はページ間のクロスリンクを幅優先探索で網羅的に収集し、302リダイレクトの別名を正規化。画像リンクの死活を検査して到達不能なものを除外したうえで、GeoJSON / CSV / IIIF Collection / Frictionless datapackage の各形式へ変換・整形した。",
+  "notes": "非公式の二次データセット（国立国会図書館が作成・公認したものではない）。ライセンスは3層: 編纂データ（座標・分類・構造）は CC BY 4.0 / 画像は各レコードの rights を参照（PDM が多数、空欄は未確認でパブリックドメインを意味しない）/ 解説文は © 国立国会図書館で CC BY 4.0 の対象外。",
+  "references": [
+    "国立国会図書館「錦絵と写真でめぐる日本の名所」. https://www.ndl.go.jp/landmarks"
+  ],
+  "locations": [
+    { "place": "日本 / Japan", "lat": 37.0, "lon": 138.0, "description": "対象は日本全国の名所（534地点）" }
+  ],
   "related_identifiers": [
-    {
-      "identifier": "https://www.ndl.go.jp/landmarks",
-      "relation": "isDerivedFrom",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://github.com/nakamura196/ndl-landmarks-dataset",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
+    { "identifier": "https://www.ndl.go.jp/landmarks", "relation": "isDerivedFrom", "scheme": "url" },
+    { "identifier": "https://github.com/nakamura196/ndl-landmarks-dataset", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://ldas.jp/ja/posts/ndl-landmarks-dataset/", "relation": "isDocumentedBy", "scheme": "url" }
   ]
 }

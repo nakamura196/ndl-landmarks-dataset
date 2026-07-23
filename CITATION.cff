@@ -3,6 +3,14 @@ message: "このデータセットを利用する場合は以下を引用して�
 title: "錦絵と写真でめぐる日本の名所 データセット (NDL Landmarks Dataset)"
 type: dataset
 version: "1.0.0"
+doi: "10.5281/zenodo.21501348"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21501348"
+    description: 概念DOI（常に最新版を指す）
+  - type: doi
+    value: "10.5281/zenodo.21501349"
+    description: v1.0.0 のバージョンDOI
 authors:
   - family-names: Nakamura
     given-names: Satoru

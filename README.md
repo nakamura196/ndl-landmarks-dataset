@@ -1,5 +1,6 @@
 # 錦絵と写真でめぐる日本の名所（データセット）
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21501348.svg)](https://doi.org/10.5281/zenodo.21501348)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 日本全国の名所と、各名所に紐づく江戸〜明治大正期の錦絵・写真の一覧データセット。
@@ -26,7 +27,7 @@ GeoJSON は GitHub 上でそのまま地図表示され、CSV は表としてプ
 ## 引用例
 
 > 国立国会図書館「錦絵と写真でめぐる日本の名所」データセット (version 1.0.0), 2026,
-> https://github.com/nakamura196/ndl-landmarks-dataset （CC BY 4.0）.
+> https://doi.org/10.5281/zenodo.21501348 （CC BY 4.0）.
 
 ## 出典・ライセンス
 

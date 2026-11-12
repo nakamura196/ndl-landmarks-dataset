@@ -12,6 +12,7 @@ DIP の中身:
 """
 
 import argparse
+import datetime
 import csv
 import html
 import json
@@ -28,6 +29,17 @@ COLLECTION = 'iiif-collection.json'
 KASANE = 'https://kasane.ldas.jp/ja/browse/?u='
 GEOJSON = 'ndl-landmarks.geojson'
 GEOJSON_IO = 'https://geojson.io/#data=data:text/x-url,'
+FILE_NOTES = {
+    'iiif-collection.json': '錦絵・写真の IIIF マニフェストをまとめた Collection',
+    'images.csv': '名所ごとの錦絵・写真の一覧（出典・権利の欄つき）',
+    'sights.csv': '名所の一覧（緯度経度・都道府県・地方）',
+    'other-materials.csv': '名所に関連するその他の資料',
+    'ndl-landmarks.json': '名所と画像をまとめた JSON',
+    'ndl-landmarks.geojson': '名所の位置（GeoJSON、Point）',
+    'broken-links.json': '公開元で表示できなかった画像の記録',
+    'datapackage.json': 'Frictionless Data Package の記述（列の定義・ライセンス）',
+    'LICENSE': 'ライセンス',
+}
 
 
 def pages_url(repo):
@@ -51,35 +63,111 @@ def cmd_build(a):
     dp = json.load(open(os.path.join(src, 'datapackage.json'), encoding='utf-8'))
     e = html.escape
     title = dp.get('title') or a.repo
-    links = ''.join(f'<li><a href="{e(f)}">{e(f)}</a></li>\n' for f in DATA)
-    record = f'<li>Zenodo の記録（AIP）: <a href="{e(a.record_url)}">{e(a.record_url)}</a></li>\n' if a.record_url else ''
+    n_manifests = len(coll.get('manifests') or [])
+    gj = json.load(open(os.path.join(src, GEOJSON), encoding='utf-8'))
+    n_points = len(gj.get('features') or [])
+    _, n_images = csv_rows(os.path.join(src, 'images.csv'), {})
+
+    def size(f):
+        b = os.path.getsize(os.path.join(out, f))
+        return f'{b / 1024:,.0f} KB' if b >= 1024 else f'{b} B'
+
+    rows = ''.join(
+        f'<tr><td><a href="{e(f)}"><code>{e(f)}</code></a></td><td>{e(FILE_NOTES.get(f, ""))}</td>'
+        f'<td class="num">{size(f)}</td></tr>\n'
+        for f in [COLLECTION] + DATA)
+    desc = ''.join(f'<p>{e(x)}</p>\n' for x in (dp.get('description') or '').split('\n') if x.strip())
+    doi = dp.get('doi')
+    doi_html = f'<div><dt>DOI（全版）</dt><dd><a href="https://doi.org/{e(doi)}">{e(doi)}</a></dd></div>' if doi else ''
+    record = (f'<li>Zenodo の記録（この版の AIP）: <a href="{e(a.record_url)}">{e(a.record_url)}</a></li>\n'
+              if a.record_url else '')
+    built = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
+    kasane = KASANE + urllib.parse.quote(coll_url, safe='')
+    gjio = GEOJSON_IO + urllib.parse.quote(base + GEOJSON, safe='')
+    src_url = f'https://github.com/{a.repo}/tree/{a.tag}'
     page = f'''<!doctype html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)} {e(a.tag)}</title>
+<style>
+:root {{ --bg:#fbfaf7; --fg:#1f2328; --muted:#5b6270; --line:#e3e0d8; --card:#ffffff; --accent:#8a3b12; --accent-bg:#f6ece4; }}
+@media (prefers-color-scheme: dark) {{
+  :root {{ --bg:#16181c; --fg:#e8e6e1; --muted:#a3a8b2; --line:#30343b; --card:#1e2126; --accent:#f0a274; --accent-bg:#2c221c; }}
+}}
+* {{ box-sizing:border-box; }}
+body {{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.75 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif; }}
+main {{ max-width:860px; margin:0 auto; padding:40px 16px 64px; }}
+a {{ color:var(--accent); }}
+.eyebrow {{ color:var(--muted); font-size:.85rem; letter-spacing:.04em; margin:0 0 .25rem; }}
+h1 {{ font-size:1.9rem; line-height:1.35; margin:0 0 1rem; }}
+h2 {{ font-size:1.15rem; margin:2.5rem 0 .75rem; padding-bottom:.35rem; border-bottom:1px solid var(--line); }}
+.lead p {{ margin:.4rem 0; color:var(--muted); }}
+.stats {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:1.75rem 0 0; padding:0; }}
+.stats div {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }}
+.stats dt {{ color:var(--muted); font-size:.8rem; }}
+.stats dd {{ margin:0; font-size:1.35rem; font-weight:600; font-variant-numeric:tabular-nums; }}
+.actions {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; }}
+.actions a {{ display:block; text-decoration:none; color:var(--fg); background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:10px; padding:16px 18px; }}
+.actions a:hover {{ background:var(--accent-bg); }}
+.actions strong {{ display:block; color:var(--accent); font-size:1.05rem; }}
+.actions span {{ color:var(--muted); font-size:.9rem; }}
+.table {{ overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--card); }}
+table {{ width:100%; border-collapse:collapse; font-size:.92rem; }}
+th, td {{ text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); vertical-align:top; }}
+tr:last-child td {{ border-bottom:0; }}
+th {{ color:var(--muted); font-weight:500; font-size:.8rem; }}
+td.num, th.num {{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }}
+code {{ font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.88em; }}
+ul.plain {{ padding-left:1.2rem; }}
+.meta {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:6px 24px; margin:0; }}
+.meta dt {{ color:var(--muted); font-size:.8rem; }}
+.meta dd {{ margin:0 0 .5rem; word-break:break-all; }}
+footer {{ margin-top:3rem; color:var(--muted); font-size:.85rem; }}
+</style>
 </head>
 <body>
+<main>
+<p class="eyebrow">データセット ・ 版 {e(a.tag)}</p>
 <h1>{e(title)}</h1>
-<p>版: {e(a.tag)}</p>
-<h2>IIIF Collection</h2>
-<ul>
-<li><a href="{e(COLLECTION)}">{e(COLLECTION)}</a>（{len(coll.get('manifests') or [])} 件のマニフェスト）</li>
-<li><a href="{e(KASANE + urllib.parse.quote(coll_url, safe=''))}">IIIF Kasane で開く</a></li>
-</ul>
-<h2>地図</h2>
-<ul>
-<li><a href="{e(GEOJSON)}">{e(GEOJSON)}</a> ・ <a href="{e(GEOJSON_IO + urllib.parse.quote(base + GEOJSON, safe=''))}">geojson.io で地図に表示する</a></li>
-</ul>
-<h2>データ</h2>
-<ul>
-{links}</ul>
+<div class="lead">
+{desc}</div>
+<dl class="stats">
+<div><dt>名所</dt><dd>{n_points:,} 地点</dd></div>
+<div><dt>錦絵・写真</dt><dd>{n_images:,} 件</dd></div>
+<div><dt>IIIF マニフェスト</dt><dd>{n_manifests:,} 件</dd></div>
+</dl>
+
+<h2>見る</h2>
+<div class="actions">
+<a href="{e(kasane)}"><strong>画像を見る</strong><span>IIIF Collection を IIIF Kasane で開きます</span></a>
+<a href="{e(gjio)}"><strong>地図で見る</strong><span>名所の位置を geojson.io で地図に表示します</span></a>
+</div>
+
+<h2>ファイル</h2>
+<div class="table">
+<table>
+<thead><tr><th>ファイル</th><th>内容</th><th class="num">大きさ</th></tr></thead>
+<tbody>
+{rows}</tbody>
+</table>
+</div>
+
 <h2>来歴</h2>
-<ul>
-<li><a href="build-info.json">build-info.json</a>（この一式を作った AIP の SHA-256・コミット・道具の版）</li>
-{record}<li>ソース: <a href="https://github.com/{e(a.repo)}/tree/{e(a.tag)}">https://github.com/{e(a.repo)}/tree/{e(a.tag)}</a></li>
+<dl class="meta">
+<div><dt>版</dt><dd>{e(a.tag)}</dd></div>
+{doi_html}
+<div><dt>ソース</dt><dd><a href="{e(src_url)}">{e(src_url)}</a></dd></div>
+</dl>
+<ul class="plain">
+{record}<li><a href="build-info.json"><code>build-info.json</code></a> — この一式を組み立てた AIP の SHA-256・コミット・道具の版</li>
 </ul>
+
+<footer>
+<p>このページと一式は、保存用の AIP から自動で組み立てたものです（{e(a.tag)}、{built} 組み立て）。JavaScript を使わずに表示できます。</p>
+</footer>
+</main>
 </body>
 </html>
 '''

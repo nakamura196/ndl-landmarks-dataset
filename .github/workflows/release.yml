@@ -2,6 +2,7 @@ name: Release (SIP → AIP → Zenodo → DIP → Pages)
 
 # リリースのたびに、OAIS 参照モデルの情報パッケージの考え方で保存と公開を行う。
 #
+#   1. validate  タグの版のデータ（CSV）を datapackage.json の記述と Frictionless で照らす。合わなければ止める
 #   2. aip       SIP = GitHub のソース zip。a3m（軽量版 Archivematica）で AIP（BagIt + METS/PREMIS）を作り、
 #                同じジョブの中で Zenodo の API に上げて公開する（DOI が付く）。そのあとリリースにも添付する
 #   3. dip       リリースに添付した AIP を取り直し、その MD5 を Zenodo の記録の AIP と突き合わせる。
@@ -69,7 +70,29 @@ env:
   ZENODO_PY: wf/.github/scripts/zenodo.py
 
 jobs:
+  # 元のデータ（タグの版）を datapackage.json の記述と照らす。合わなければ、ここで止め、AIP を作らない
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the tag
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.TAG }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+
+      # 列の型・必須・主キー・行数の宣言と、記述そのもの（Data Package の規格）を確かめる
+      - name: Validate the data against datapackage.json (Frictionless)
+        run: |
+          pip install frictionless==5.21.0
+          frictionless validate datapackage.json
+
   aip:
+    needs: validate
     runs-on: ubuntu-latest
     permissions:
       contents: write   # リリースに AIP を添付する

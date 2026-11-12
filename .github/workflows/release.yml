@@ -244,7 +244,10 @@ jobs:
         with:
           ref: ${{ github.sha }}
           path: wf
-          sparse-checkout: .github/scripts
+          # DIP に入れるバッジ（.github/assets）も一緒に取る
+          sparse-checkout: |
+            .github/scripts
+            .github/assets
           persist-credentials: false
 
       # ジョブ間の受け渡しではなく、保存先（リリース）に置いた AIP そのものから作る

@@ -10,6 +10,7 @@
 DIP の中身:
   データのファイル（CSV・JSON・GeoJSON・datapackage.json・LICENSE）… ソースのものをそのまま写す
   iiif-collection.json … @id だけを、GitHub Pages に置いたときの URL に書き換える
+  endings_logo_badge_dark_mono.svg … Endings Project のバッジ（.github/assets から写す。CC BY 4.0）
   index.html           … 題名・版・各ファイルへのリンク・IIIF Kasane で開くリンクだけの静的なページ（JS なし）
   build-info.json      … 来歴。この台本ではなく、release.yml の「Record provenance in the DIP」が書く
 """
@@ -33,6 +34,11 @@ COLLECTION = 'iiif-collection.json'
 KASANE = 'https://kasane.ldas.jp/ja/browse/?u='
 GEOJSON = 'ndl-landmarks.geojson'
 GEOJSON_IO = 'https://geojson.io/#data=data:text/x-url,'
+# Endings Project のバッジ（https://endings.uvic.ca/logos.zip の SVG をそのまま、CC BY 4.0）。
+# 灰色の地に白の字なので、明るい画面でも暗い画面でも読める。外から読み込まず、DIP に入れる
+BADGE = 'endings_logo_badge_dark_mono.svg'
+ASSETS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets')
+ENDINGS = 'https://endings.uvic.ca/compliance.html'
 FILE_NOTES = {
     'iiif-collection.json': '錦絵・写真の IIIF マニフェストをまとめた Collection',
     'images.csv': '名所ごとの錦絵・写真の一覧（出典・権利の欄つき）',
@@ -56,6 +62,7 @@ def cmd_build(a):
     os.makedirs(out, exist_ok=True)
     for f in DATA:
         shutil.copy2(os.path.join(src, f), os.path.join(out, f))
+    shutil.copy2(os.path.join(ASSETS, BADGE), os.path.join(out, BADGE))
 
     base = pages_url(a.repo)
     coll_url = base + COLLECTION
@@ -128,7 +135,10 @@ ul.plain {{ padding-left:1.2rem; }}
 .meta {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:6px 24px; margin:0; }}
 .meta dt {{ color:var(--muted); font-size:.8rem; }}
 .meta dd {{ margin:0 0 .5rem; word-break:break-all; }}
-footer {{ margin-top:3rem; color:var(--muted); font-size:.85rem; }}
+footer {{ margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; display:flex; gap:16px; align-items:flex-start; }}
+footer p {{ margin:0 0 .4rem; }}
+footer img {{ display:block; width:37px; height:auto; }}
+.note {{ color:var(--muted); font-size:.9rem; }}
 </style>
 </head>
 <body>
@@ -148,6 +158,7 @@ footer {{ margin-top:3rem; color:var(--muted); font-size:.85rem; }}
 <a href="{e(kasane)}"><strong>画像を見る</strong><span>IIIF Collection を IIIF Kasane で開きます</span></a>
 <a href="{e(gjio)}"><strong>地図で見る</strong><span>名所の位置を geojson.io で地図に表示します</span></a>
 </div>
+<p class="note">錦絵・写真の画像そのものは、国立国会図書館（NDL）の IIIF サーバから配信されています。この一式には画像は含まれず、マニフェストへのリンクだけが入っています。</p>
 
 <h2>ファイル</h2>
 <div class="table">
@@ -169,7 +180,11 @@ footer {{ margin-top:3rem; color:var(--muted); font-size:.85rem; }}
 </ul>
 
 <footer>
+<a href="{ENDINGS}"><img src="{BADGE}" alt="Endings-compliant（Endings Project の原則に沿ったサイト）" title="Endings-compliant" width="37" height="51"></a>
+<div>
 <p>このページと一式は、保存用の AIP から自動で組み立てたものです（{e(a.tag)}、{built} 組み立て）。JavaScript を使わずに表示できます。</p>
+<p>Endings のバッジ: © The Endings Project Team, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>（<a href="{ENDINGS}">endings.uvic.ca</a>）</p>
+</div>
 </footer>
 </main>
 </body>
@@ -177,7 +192,7 @@ footer {{ margin-top:3rem; color:var(--muted); font-size:.85rem; }}
 '''
     with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as fh:
         fh.write(page)
-    print(f'DIP: {out}（{len(DATA) + 2} ファイル）')
+    print(f'DIP: {out}（{len(DATA) + 3} ファイル）')
 
 
 def csv_rows(path, dialect):

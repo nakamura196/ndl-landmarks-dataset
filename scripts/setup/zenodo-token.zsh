@@ -25,11 +25,11 @@
 #
 # トークンは 1Password にも保存しておくとよい（項目名にパレンを使わない。例: "Zenodo token kouigenji production"）。
 # 1Password から直接入れるなら、この台本を使わずに次の 1 行でもよい:
-#   op read 'op://Personal/Zenodo token kouigenji production/credential' | gh secret set ZENODO_TOKEN --env zenodo -R kouigenjimonogatari/kouigenjimonogatari.github.io
+#   op read 'op://Personal/<項目名>/credential' | gh secret set ZENODO_SANDBOX_TOKEN --env zenodo -R nakamura196/ndl-landmarks-dataset
 
 set -euo pipefail
 
-REPO=kouigenjimonogatari/kouigenjimonogatari.github.io
+REPO=nakamura196/ndl-landmarks-dataset
 ENV_NAME=zenodo
 
 case "${1:-}" in

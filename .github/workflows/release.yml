@@ -2,11 +2,10 @@ name: Release (SIP → AIP → Zenodo → DIP → Pages)
 
 # リリースのたびに、OAIS 参照モデルの情報パッケージの考え方で保存と公開を行う。
 #
-#   1. validate  タグの版を RELAX NG / Schematron で検証する（通らなければ止まる）
 #   2. aip       SIP = GitHub のソース zip。a3m（軽量版 Archivematica）で AIP（BagIt + METS/PREMIS）を作り、
 #                同じジョブの中で Zenodo の API に上げて公開する（DOI が付く）。そのあとリリースにも添付する
 #   3. dip       リリースに添付した AIP を取り直し、その MD5 を Zenodo の記録の AIP と突き合わせる。
-#                合えば、その中のソースからサイトを組み立て、DIP として zip にしてリリースに添付する
+#                合えば、その中のソースからデータの公開一式（.github/scripts/build_dip.py）を組み立て、DIP として zip にしてリリースに添付する
 #   4. deploy    リリースに添付した DIP を取り直し、そのまま GitHub Pages（アクセスシステム）に置く
 #
 # なぜ Zenodo と突き合わせるか: GitHub に書き込める者は、添付の AIP と SHA-256 を一緒に差し替えられる。
@@ -70,13 +69,7 @@ env:
   ZENODO_PY: wf/.github/scripts/zenodo.py
 
 jobs:
-  validate:
-    uses: ./.github/workflows/validate.yml
-    with:
-      ref: ${{ github.event.release.tag_name || inputs.tag }}
-
   aip:
-    needs: validate
     runs-on: ubuntu-latest
     permissions:
       contents: write   # リリースに AIP を添付する
@@ -266,56 +259,15 @@ jobs:
           mkdir src && unzip -q "$SRC_ZIP" -d src
           echo "SRC=$(ls -d "$PWD"/src/*/)" >> "$GITHUB_ENV"
 
-      - name: Install Python dependencies
+      - name: Generate DIP from the AIP (data files, IIIF Collection, index.html)
         if: steps.check.outputs.exists != 'true'
-        run: pip install -r "$SRC/requirements.txt"
+        run: python3 wf/.github/scripts/build_dip.py build --src "$SRC" --out "$SRC/docs" --repo "$GITHUB_REPOSITORY" --tag "$TAG" --record-url "${ZENODO_API%/api}/records/$RECORD_ID"
 
-      - name: Set up Java
+      # 必要なファイルがそろい空でないこと、Collection が images.csv のマニフェストを過不足なく並べること、
+      # GeoJSON の点の数が名所の数と同じこと、CSV の見出しが datapackage.json と合うことを確かめる
+      - name: Check that the DIP is complete
         if: steps.check.outputs.exists != 'true'
-        uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
-        with:
-          distribution: 'temurin'
-          java-version: '21'
-
-      - name: Download Saxon-HE and xmlresolver
-        if: steps.check.outputs.exists != 'true'
-        run: |
-          curl -sfL -o /tmp/saxon-he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.5/Saxon-HE-12.5.jar
-          curl -sfL -o /tmp/xmlresolver.jar https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/6.0.4/xmlresolver-6.0.4.jar
-
-      - name: Generate DIP from the AIP (tei, xsl, waka, stats, api, epub)
-        if: steps.check.outputs.exists != 'true'
-        env:
-          SAXON_JAR: /tmp/saxon-he.jar:/tmp/xmlresolver.jar
-        run: |
-          set -o pipefail
-          python3 "$SRC/scripts/prebuild.py" tei xsl waka stats api epub 2>&1 | tee build.log
-          # prebuild.py は、一部の帖で失敗しても最後まで進み、成功で終わる
-          if grep -n 'FAILED' build.log; then exit 1; fi
-
-      # 組み立ては、元の TEI や XSLT が欠けていても成功で終わる（欠けた分を黙って飛ばす）。
-      # 54 帖それぞれについて、元の TEI と、DIP の TEI・HTML（日本語・英語）・EPUB がそろっているかを確かめる
-      - name: Check that the DIP covers all 54 chapters
-        if: steps.check.outputs.exists != 'true'
-        run: |
-          python3 - "$SRC" <<'PY'
-          import json, os, sys
-          src = sys.argv[1]
-          need = ["xml/master/{}.xml", "docs/tei/{}.xml", "docs/html/{}.html", "docs/en/html/{}.html", "docs/epub/{}.epub"]
-          paths = [p.format(f"{i:02d}") for i in range(1, 55) for p in need]
-          missing = [p for p in paths if not os.path.isfile(os.path.join(src, p)) or os.path.getsize(os.path.join(src, p)) == 0]
-          chapters = json.load(open(os.path.join(src, "docs/data/chapters.json"), encoding="utf-8"))
-          got = sorted(c["chapter"] for c in chapters)
-          if got != [f"{i:02d}" for i in range(1, 55)]:
-              missing.append(f"docs/data/chapters.json（{len(got)} 帖）")
-          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
-              print(f"### DIP のそろい: {'54 帖そろっている' if not missing else f'**{len(missing)} 件が欠けている**'}", file=out)
-              for m in missing[:20]:
-                  print(f"- 欠け: `{m}`", file=out)
-          for m in missing:
-              print("missing:", m)
-          sys.exit(1 if missing else 0)
-          PY
+        run: python3 wf/.github/scripts/build_dip.py check --dip "$SRC/docs" --repo "$GITHUB_REPOSITORY"
 
       # DIP が、どの AIP から、どの道具で作られたかを、サイトの中に残す
       - name: Record provenance in the DIP
@@ -328,7 +280,6 @@ jobs:
           name = os.environ["NAME"]
           aip_sha = open(f"{name}-aip.7z.sha256").read().split()[0]
           commit = subprocess.run(["gh", "api", f"repos/{os.environ['GITHUB_REPOSITORY']}/commits/{os.environ['TAG']}", "-q", ".sha"], capture_output=True, text=True, check=True).stdout.strip()
-          java = subprocess.run(["java", "-version"], capture_output=True, text=True).stderr.splitlines()[0]
           freeze = subprocess.run([sys.executable, "-m", "pip", "freeze"], capture_output=True, text=True, check=True).stdout.split()
           info = {
               "tag": os.environ["TAG"],
@@ -337,7 +288,7 @@ jobs:
               "zenodo": {"api": os.environ["ZENODO_API"], "record": os.environ["RECORD_ID"], "doi": os.environ.get("ZENODO_DOI", "")},
               "built_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
               "workflow_run": f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}",
-              "tools": {"python": sys.version.split()[0], "java": java, "saxon": "Saxon-HE 12.5", "xmlresolver": "6.0.4", "pip": freeze},
+              "tools": {"python": sys.version.split()[0], "dip_builder": f".github/scripts/build_dip.py@{os.environ['GITHUB_SHA']}", "pip": freeze},
           }
           json.dump(info, open(sys.argv[1], "w"), ensure_ascii=False, indent=2)
           PY

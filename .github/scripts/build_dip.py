@@ -2,7 +2,10 @@
 """release.yml の dip の段から呼ぶ、DIP（公開用の一式）の組み立てと点検（標準ライブラリだけで動く）。
 
   build  AIP から取り出したソース（タグの版）から、DIP のディレクトリを作る
-  check  DIP に必要なファイルがそろい、中身が数として合っているかを確かめる
+  check  DIP に必要なファイルがそろい、中身が数として合っているかを確かめる。
+         あわせて、JSON がすべて読めること、HTML の中のリンク（href・src）が DIP の中で切れていないこと、
+         DIP の中を指すリンクが相対であること（公開先の URL を直に書いていないこと）を確かめる。
+         外のサイトへのリンクは確かめない（周辺の機能で、切れても一式は使える）
 
 DIP の中身:
   データのファイル（CSV・JSON・GeoJSON・datapackage.json・LICENSE）… ソースのものをそのまま写す
@@ -15,6 +18,7 @@ import argparse
 import datetime
 import csv
 import html
+import html.parser
 import json
 import os
 import shutil
@@ -183,6 +187,77 @@ def csv_rows(path, dialect):
         return header, sum(1 for _ in r)
 
 
+class _Links(html.parser.HTMLParser):
+    """HTML から href・src の値を、行番号つきで集める"""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.found = []
+
+    def handle_starttag(self, tag, attrs):
+        for k, v in attrs:
+            if k in ('href', 'src') and v is not None:
+                self.found.append((self.getpos()[0], tag, k, v))
+
+
+def check_links(out, repo):
+    """DIP の中の HTML のリンクを確かめ、(問題の一覧, 数えた結果) を返す"""
+    base = urllib.parse.urlsplit(pages_url(repo))
+    root = os.path.realpath(out)
+    problems, n_int, n_ext = [], 0, 0
+    for dirpath, _, files in os.walk(out):
+        for fn in sorted(files):
+            if not fn.endswith('.html'):
+                continue
+            path = os.path.join(dirpath, fn)
+            rel = os.path.relpath(path, out)
+            parser = _Links()
+            parser.feed(open(path, encoding='utf-8').read())
+            for line, tag, attr, v in parser.found:
+                u = urllib.parse.urlsplit(v.strip())
+                where = f'{rel}:{line} <{tag} {attr}="{v}">'
+                if u.scheme in ('http', 'https') or (not u.scheme and u.netloc):
+                    if u.netloc.lower() == base.netloc and (u.path + '/').startswith(base.path):
+                        problems.append(f'DIP の中を絶対 URL で指している: {where}')
+                    else:
+                        n_ext += 1
+                    continue
+                if u.scheme in ('mailto', 'tel'):
+                    n_ext += 1
+                    continue
+                if u.scheme:
+                    problems.append(f'使えない種類のリンク: {where}')
+                    continue
+                if not u.path:          # 同じページの中（#…）
+                    continue
+                if u.path.startswith('/'):
+                    problems.append(f'サイトの根から書いたリンク（公開先では DIP の外を指す）: {where}')
+                    continue
+                target = os.path.realpath(os.path.join(dirpath, urllib.parse.unquote(u.path)))
+                if target != root and not target.startswith(root + os.sep):
+                    problems.append(f'DIP の外を指している: {where}')
+                elif not (os.path.isfile(target) or os.path.isfile(os.path.join(target, 'index.html'))):
+                    problems.append(f'リンク先が DIP に無い: {where}')
+                else:
+                    n_int += 1
+    return problems, n_int, n_ext
+
+
+def check_json(out):
+    """DIP の中の JSON・GeoJSON がすべて読めるかを確かめ、(問題の一覧, 数) を返す"""
+    problems, n = [], 0
+    for dirpath, _, files in os.walk(out):
+        for fn in sorted(files):
+            if fn.endswith(('.json', '.geojson')):
+                path = os.path.join(dirpath, fn)
+                n += 1
+                try:
+                    json.load(open(path, encoding='utf-8'))
+                except (ValueError, UnicodeDecodeError) as ex:
+                    problems.append(f'JSON として読めない: {os.path.relpath(path, out)}（{ex}）')
+    return problems, n
+
+
 def cmd_check(a):
     out, problems, lines = a.dip, [], []
     need = DATA + [COLLECTION, 'index.html']
@@ -231,6 +306,13 @@ def cmd_check(a):
                 problems.append(f'{path} の行数 {n} が datapackage.json の宣言 {declared} と違う')
             lines.append(f'- {path}: {n} 行、見出しは schema と{"一致" if header == fields else "不一致"}、'
                          f'行数の宣言 {"なし" if declared is None else declared}')
+
+        bad, n_json = check_json(out)
+        problems += bad
+        lines.append(f'- JSON: {n_json} ファイル、読めないもの {len(bad)} 件')
+        bad, n_int, n_ext = check_links(out, a.repo)
+        problems += bad
+        lines.append(f'- HTML のリンク: DIP の中 {n_int} 件（切れ・絶対 URL {len(bad)} 件）、外のサイト {n_ext} 件（確かめない）')
 
     with open(os.environ.get('GITHUB_STEP_SUMMARY', os.devnull), 'a') as s:
         print(f'### DIP の点検: {"そろっている" if not problems else f"**{len(problems)} 件の問題**"}', file=s)

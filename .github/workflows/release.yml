@@ -6,7 +6,8 @@ name: Release (SIP → AIP → Zenodo → DIP → Pages)
 #   2. aip       SIP = GitHub のソース zip。a3m（軽量版 Archivematica）で AIP（BagIt + METS/PREMIS）を作り、
 #                同じジョブの中で Zenodo の API に上げて公開する（DOI が付く）。そのあとリリースにも添付する
 #   3. dip       リリースに添付した AIP を取り直し、その MD5 を Zenodo の記録の AIP と突き合わせる。
-#                合えば、その中のソースからデータの公開一式（.github/scripts/build_dip.py）を組み立て、DIP として zip にしてリリースに添付する
+#                合えば、その中のソースからデータの公開一式（.github/scripts/build_dip.py）を組み立て、
+#                リンク・JSON・HTML を検証してから、DIP として zip にしてリリースに添付する
 #   4. deploy    リリースに添付した DIP を取り直し、そのまま GitHub Pages（アクセスシステム）に置く
 #
 # なぜ Zenodo と突き合わせるか: GitHub に書き込める者は、添付の AIP と SHA-256 を一緒に差し替えられる。
@@ -66,6 +67,8 @@ env:
   ZENODO_SANDBOX_DEPOSITION_ID: ${{ vars.ZENODO_SANDBOX_DEPOSITION_ID }}
   # a3m は版の付いたリリースが無いので、イメージをダイジェストで固定する
   A3M_IMAGE: ghcr.io/artefactual-labs/a3m@sha256:daafc45963f622c51c671f367562be73a1fa54c1ee473859cc0d941d687d2db0
+  # Nu Html Checker（vnu）も、版の付いたイメージ（24.10.17）をダイジェストで固定する
+  VNU_IMAGE: ghcr.io/validator/validator@sha256:765b60a5ff3e2428ebe1af0b9b50051934c2a0e41bac3455cbdc6560bb634207
   GH_TOKEN: ${{ github.token }}
   ZENODO_PY: wf/.github/scripts/zenodo.py
 
@@ -286,12 +289,6 @@ jobs:
         if: steps.check.outputs.exists != 'true'
         run: python3 wf/.github/scripts/build_dip.py build --src "$SRC" --out "$SRC/docs" --repo "$GITHUB_REPOSITORY" --tag "$TAG" --record-url "${ZENODO_API%/api}/records/$RECORD_ID"
 
-      # 必要なファイルがそろい空でないこと、Collection が images.csv のマニフェストを過不足なく並べること、
-      # GeoJSON の点の数が名所の数と同じこと、CSV の見出しが datapackage.json と合うことを確かめる
-      - name: Check that the DIP is complete
-        if: steps.check.outputs.exists != 'true'
-        run: python3 wf/.github/scripts/build_dip.py check --dip "$SRC/docs" --repo "$GITHUB_REPOSITORY"
-
       # DIP が、どの AIP から、どの道具で作られたかを、サイトの中に残す
       - name: Record provenance in the DIP
         if: steps.check.outputs.exists != 'true'
@@ -315,6 +312,19 @@ jobs:
           }
           json.dump(info, open(sys.argv[1], "w"), ensure_ascii=False, indent=2)
           PY
+
+      # 必要なファイルがそろい空でないこと、Collection が images.csv のマニフェストを過不足なく並べること、
+      # GeoJSON の点の数が名所の数と同じこと、CSV の見出しが datapackage.json と合うこと、
+      # JSON がすべて読めること、HTML のリンクが DIP の中で切れておらず相対で書かれていることを確かめる。
+      # そのあと HTML（中の CSS を含む）を Nu Html Checker で検証する。来歴（build-info.json）を書いた後の、配る形のままを確かめる
+      - name: Check that the DIP is complete and valid
+        if: steps.check.outputs.exists != 'true'
+        run: |
+          python3 wf/.github/scripts/build_dip.py check --dip "$SRC/docs" --repo "$GITHUB_REPOSITORY"
+          # ディレクトリを渡すと CSV や JSON まで HTML として読むので、HTML と CSS のファイルだけを渡す。警告も止める
+          FILES=$(cd "$SRC/docs" && find . -type f \( -name '*.html' -o -name '*.css' \) | sed 's|^\./|/dip/|')
+          docker run --rm --network none --volume "$SRC/docs:/dip:ro" "$VNU_IMAGE" /vnu-runtime-image/bin/vnu --Werror --also-check-css --format gnu $FILES
+          echo "- Nu Html Checker: エラー・警告なし（\`$VNU_IMAGE\`）" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Package and attach DIP
         if: steps.check.outputs.exists != 'true'

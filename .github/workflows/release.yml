@@ -7,7 +7,7 @@ name: Release (SIP → AIP → Zenodo → DIP → Pages)
 #                同じジョブの中で Zenodo の API に上げて公開する（DOI が付く）。そのあとリリースにも添付する
 #   3. dip       リリースに添付した AIP を取り直し、その MD5 を Zenodo の記録の AIP と突き合わせる。
 #                合えば、その中のソースからデータの公開一式（.github/scripts/build_dip.py）を組み立て、
-#                リンク・JSON・HTML を検証してから、DIP として zip にしてリリースに添付する
+#                JSON・HTML・CSS・リンクを検証してから、DIP として zip にしてリリースに添付する
 #   4. deploy    リリースに添付した DIP を取り直し、そのまま GitHub Pages（アクセスシステム）に置く
 #
 # なぜ Zenodo と突き合わせるか: GitHub に書き込める者は、添付の AIP と SHA-256 を一緒に差し替えられる。
@@ -67,8 +67,6 @@ env:
   ZENODO_SANDBOX_DEPOSITION_ID: ${{ vars.ZENODO_SANDBOX_DEPOSITION_ID }}
   # a3m は版の付いたリリースが無いので、イメージをダイジェストで固定する
   A3M_IMAGE: ghcr.io/artefactual-labs/a3m@sha256:daafc45963f622c51c671f367562be73a1fa54c1ee473859cc0d941d687d2db0
-  # Nu Html Checker（vnu）も、版の付いたイメージ（24.10.17）をダイジェストで固定する
-  VNU_IMAGE: ghcr.io/validator/validator@sha256:765b60a5ff3e2428ebe1af0b9b50051934c2a0e41bac3455cbdc6560bb634207
   GH_TOKEN: ${{ github.token }}
   ZENODO_PY: wf/.github/scripts/zenodo.py
 
@@ -317,17 +315,32 @@ jobs:
           PY
 
       # 必要なファイルがそろい空でないこと、Collection が images.csv のマニフェストを過不足なく並べること、
-      # GeoJSON の点の数が名所の数と同じこと、CSV の見出しが datapackage.json と合うこと、
-      # JSON がすべて読めること、HTML のリンクが DIP の中で切れておらず相対で書かれていることを確かめる。
-      # そのあと HTML（中の CSS を含む）を Nu Html Checker で検証する。来歴（build-info.json）を書いた後の、配る形のままを確かめる
-      - name: Check that the DIP is complete and valid
+      # GeoJSON の点の数が名所の数と同じこと、CSV の見出しが datapackage.json と合うこと、JSON がすべて読めることを確かめる。
+      # この段と、続く HTML・リンクの点検は、来歴（build-info.json）を書いた後の、配る形のままを確かめる
+      # （index.html が build-info.json にリンクしているため）
+      - name: Check that the DIP is complete
+        if: steps.check.outputs.exists != 'true'
+        run: python3 wf/.github/scripts/build_dip.py check --dip "$SRC/docs" --repo "$GITHUB_REPOSITORY"
+
+      # Endings の原則（すべてのコードを検証し、内部リンクを確かめてある）を、公開の前に機械で確かめる。
+      # vnu は npm の版付きの包み（vnu-jar 26.10.12）から取り、SHA-256 を突き合わせる
+      # （GitHub のリリースの「latest」は中身が差し替わるので使わない）
+      - name: Download Nu Html Checker (vnu)
         if: steps.check.outputs.exists != 'true'
         run: |
-          python3 wf/.github/scripts/build_dip.py check --dip "$SRC/docs" --repo "$GITHUB_REPOSITORY"
-          # ディレクトリを渡すと CSV や JSON まで HTML として読むので、HTML と CSS のファイルだけを渡す。警告も止める
-          FILES=$(cd "$SRC/docs" && find . -type f \( -name '*.html' -o -name '*.css' \) | sed 's|^\./|/dip/|')
-          docker run --rm --network none --volume "$SRC/docs:/dip:ro" "$VNU_IMAGE" /vnu-runtime-image/bin/vnu --Werror --also-check-css --format gnu $FILES
-          echo "- Nu Html Checker: エラー・警告なし（\`$VNU_IMAGE\`）" >> "$GITHUB_STEP_SUMMARY"
+          curl -sfL -o /tmp/vnu-jar.tgz https://registry.npmjs.org/vnu-jar/-/vnu-jar-26.10.12.tgz
+          echo "3925f07364f5e5a111cef54a7baefa575b22d05c70f8ced048f0616d4579b7ab  /tmp/vnu-jar.tgz" | sha256sum -c
+          tar -xzf /tmp/vnu-jar.tgz -C /tmp package/build/dist/vnu.jar
+
+      # 誤りがあれば止める。警告は要約に書くだけ（理由は check_html.py）
+      - name: Validate the DIP HTML and CSS (vnu)
+        if: steps.check.outputs.exists != 'true'
+        run: python3 wf/.github/scripts/check_html.py "$SRC/docs" --vnu /tmp/package/build/dist/vnu.jar
+
+      # 相対リンクの切れ・頁内の位置の欠け・絶対の形で書いた内部リンクがあれば止める
+      - name: Check links in the DIP
+        if: steps.check.outputs.exists != 'true'
+        run: python3 wf/.github/scripts/check_links.py "$SRC/docs"
 
       - name: Package and attach DIP
         if: steps.check.outputs.exists != 'true'

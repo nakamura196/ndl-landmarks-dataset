@@ -10,6 +10,7 @@
 - リリースの手順（GitHub Actions）を、AIP（BagIt・METS/PREMIS）を作って Zenodo に置き、その記録と
   照らした DIP を GitHub Pages に公開する形に改めた。公開の前に、元データを Frictionless で、
   公開一式の HTML・CSS を Nu Html Checker で、リンクを機械で確かめる。
+- 作成者の所属の表記を「The University of Tokyo」にそろえた（CITATION.cff・.zenodo.json）。
 
 ## [1.0.2] - 2026-07-23
 

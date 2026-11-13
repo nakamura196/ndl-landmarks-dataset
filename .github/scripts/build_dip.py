@@ -275,7 +275,8 @@ def check_json(out):
 
 def cmd_check(a):
     out, problems, lines = a.dip, [], []
-    need = DATA + [COLLECTION, 'index.html']
+    # build-info.json は release.yml の来歴の段が書く（点検はその後に行う）
+    need = DATA + [COLLECTION, 'index.html', BADGE, 'build-info.json']
     for f in need:
         p = os.path.join(out, f)
         if not os.path.isfile(p) or os.path.getsize(p) == 0:

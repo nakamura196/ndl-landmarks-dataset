@@ -3,6 +3,14 @@
 本データセットは [Keep a Changelog](https://keepachangelog.com/) と
 [セマンティックバージョニング](https://semver.org/) に従います。
 
+## [1.0.3] - 2026-11-12
+
+- datapackage.json の `created` を、Data Package の規格どおり日時（RFC 3339）の形に直した
+  （`2026-07-23` → `2026-07-23T00:00:00Z`）。記録の中身は 1.0.2 と同一（JSON・GeoJSON は版の表示だけを変えた）。
+- リリースの手順（GitHub Actions）を、AIP（BagIt・METS/PREMIS）を作って Zenodo に置き、その記録と
+  照らした DIP を GitHub Pages に公開する形に改めた。公開の前に、元データを Frictionless で、
+  公開一式の HTML・CSS を Nu Html Checker で、リンクを機械で確かめる。
+
 ## [1.0.2] - 2026-07-23
 
 - Zenodo メタデータを拡充: 著者 ORCID (0000-0001-8245-7925)・所属、`language: jpn`、
